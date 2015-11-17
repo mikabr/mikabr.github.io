@@ -9,6 +9,7 @@
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 
 \hyphenpenalty =10000
+\newcommand{\unindent}{\hspace{-0.14in}}
 
 \definecolor{color2}{RGB}{75,75,75}
 % personal data % options include title, address, mobile, extrainfo, homepage, photo, quote
@@ -60,7 +61,7 @@
 {Research Assistant}{Language and Cognition Lab, Stanford University}{Stanford, CA}{}{
 %
 %Conduct large-scale analyses of language acquisition data, such as composition of vocabulary, relations between grammar and the lexicon, and prediction of words' age of acquisition. Lead development on innovative technical projects including:
-Developed tools for language acquisition research and conducted large-scale data analyses.
+Developed tools for language acquisition research and conducted large-scale data analyses about vocabulary development. Primary developer for:
 \begin{itemize}
 \item Wordbank | \url{wordbank.stanford.edu}\\An online repository of language development data (uses Django, MySQL and R Shiny).
 \item wordbankr | \url{cran.r-project.org/web/packages/wordbankr}\\An R package for accessing Wordbank data.
@@ -112,37 +113,39 @@ Developed a behavioral experiment for investigating the connection between langu
 
 \begin{cvcolumns}
  
-  \cvcolumn[0.5]{Projects}{
-%  \begin{footnotesize}
+  \cvcolumn[0.45]{Projects}{
+  \begin{small}
   \begin{itemize}
   	\item Multi-lingual translation\\ \url{mikabr.shinyapps.io/linger}
-  	\item Visualization of historical gender of names\\ \url{mikabr.shinyapps.io/names}
+  	\item Visualization of names' gender \\ \url{mikabr.shinyapps.io/names}
   	\item Multi-function nonparametric bootstrap\\ \url{github.com/langcog/langcog}
-  	\item Chatbot puzzle\\ \url{github.com/mikabr/chatbot_puzzle}
+  	\item Chatbot puzzle\\ \url{github.com/mikabr/chatbot-puzzle}
   	\item SAT analogy problem solver\\ \url{github.com/mikabr/sat-solver}
   \end{itemize}
-%  \end{footnotesize}
+  \end{small}
 }
 
   \cvcolumn{Coursework}{
-%  \begin{footnotesize}
+  \begin{small}
   \begin{itemize}
-	\item Practical Natural Language Processing
-	\item Natural Language and the Computer Representation of Knowledge
-%	\item Natural Language and Knowledge Representation
-	\item Artificial Intelligence
-	\item Introduction to Inference
-	\item Design and Analysis of Algorithms
-	\item Computer Systems Engineering
-	\item Elements of Software Construction
-	\item Computation Structures
-	\item Probability and Random Variables
-	\item Linear Algebra
+	\item[] \unindent \texttt{MAS.S60} Practical Natural Language Processing
+	\item[] \unindent \texttt{\space\space6.863} Language and Knowledge Representation
+%	\item \texttt{\space\space6.863} Natural Language and the Computer\\ \hspace{1in} Representation of Knowledge
+	\item[] \unindent \texttt{\space\space6.804} Computational Cognitive Science
+	\item[] \unindent \texttt{\space\space6.803} The Human Intelligence Enterprise
+	\item[] \unindent \texttt{\space\space6.034} Artificial Intelligence
+	\item[] \unindent \texttt{\space\space6.046} Design and Analysis of Algorithms
+	\item[] \unindent \texttt{\space\space6.033} Computer Systems Engineering
+	\item[] \unindent \texttt{\space6.S080} Introduction to Inference
+%	\item 6.005 Elements of Software Construction
+%	\item 6.004 Computation Structures
+	\item[] \unindent \texttt{\space18.440} Probability and Random Variables
+	\item[] \unindent \texttt{\space\space18.06} Linear Algebra
 %	\item Differential Equations
 %	\item Mathematics for Computer Science
   \end{itemize}
-%  \end{footnotesize}
-}
+  \end{small}
+  }
   
 \end{cvcolumns}
 
@@ -150,7 +153,7 @@ Developed a behavioral experiment for investigating the connection between langu
 
 \section{Skills}
 %\cvitem{Programming}{Proficient in R, Python, JavaScript.}
-\cvitem{Programming}{Proficient in R (tidyr, dplyr, ggplot2, shiny, knitr), Python (django, nltk, numpy), JavaScript (angular, ionic); familiar with SQL, Java, MATLAB, Scheme.}
+\cvitem{Programming}{Proficient in R (tidyr, dplyr, ggplot2, shiny, knitr), Python (Django, nltk, numpy), JavaScript (Angular, Ionic); familiar with SQL, Java, MATLAB, Scheme.}
 %\cvline{Systems}{\small Linux, OSX, Windows, Android}
 \cvitem{Tools}{UNIX, Git, Subversion, EC2, Apache, HTML, CSS, \LaTeX.}
 %Django framework
