@@ -1,0 +1,113 @@
+---
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    template: svm-latex-cv.tex
+geometry: margin=0.8in
+
+fontawesome: yes
+
+title: "CV"
+author: Mika Braginsky
+
+#jobtitle: "Chief Brewer, Arthur Guinness & Son"
+#address: "Guinness Brewery · Park Royal · London NW10 7RR, UK"
+email: mikabr@mit.edu
+github: mikabr
+phone: "617-615-6452"
+web: mikabr.github.io
+updated: no
+
+#keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: #268bd2
+urlcolor: #268bd2
+---
+
+
+# Education
+\hrule
+\vspace{3pt}
+
+| **Massachusetts Institute of Technology**
+|     PhD Student, Brain and Cognitive Sciences, September 2016 -- Present
+
+| **Massachusetts Institute of Technology**
+|     B.S. in Computer Science and Engineering \& Brain and Cognitive Sciences, June 2014
+
+
+# Academic Appointments
+\hrule
+\vspace{3pt}
+
+| **Research Assistant** \hfill Sep 2014 -- June 2016
+|     Language and Cognition Lab, Stanford University
+|     Advisor: Michael C. Frank
+
+| **Undergraduate Researcher** \hfill Sep 2013 -- Aug 2014
+|     Computational Cognitive Science Group, MIT
+|     Advisor: Joshua Tenenbaum
+
+
+# Publications
+\hrule
+\vspace{3pt}
+
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+
+Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A., Frank, M. C. (under review). A quantitative synthesis of early language acquisition using meta-analysis.
+
+**Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (2016). From *uh-oh* to *tomorrow*: Predicting age of acquisition for early words across languages. In *Proceedings of the 38th Annual Conference of the Cognitive Science Society*.
+
+Frank, M. C., **Braginsky, M.**, Yurovsky, D., and Marchman, V. A. (2016). Wordbank: An open repository for developmental vocabulary data. Journal of Child Language.
+
+**Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (2015). Developmental changes in the relationship between grammar and the lexicon. In *Proceedings of the 37th Annual Conference of the Cognitive Science Society*.
+
+
+# Presentations
+\hrule
+\vspace{3pt}
+
+**Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (November 2016). Gender differences in lexical input and acquisition. Talk to be presented at the 41th Annual Boston University Conference on Language Development. Boston, MA.
+
+**Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (August 2016). From *uh-oh* to *tomorrow*: Predicting age of acquisition for early words across languages. Talk presented at the 38th Annual Conference of the Cognitive Science Society. Philadelphia, PA.
+
+**Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (May 2016). Predicting age of acquisition for early words across languages. Talk presented at the XX Biennial International Congress of Infant Studies. New Orleans, LA.
+
+**Braginsky, M.** (January 2016). Using Shiny for exploration of Wordbank. RStudio Shiny Developer Conference. Stanford, CA.
+
+Tsuji, S., Bergmann, C., Cristia, A., Lewis, M., **Braginsky, M.**, and Frank, M. C. (January 2016). MetaLab: Power analysis and experimental planning in developmental research made easy. Poster presented by Sho Tsuji at the 2015 Budapest CEU Conference on Cognitive Development. Budapest, Hungary.
+
+**Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (December 2015). Predicting age of acquisition for early words across languages. Talk presented at the Studying Language Learning Workshop. Tübingen, Germany.
+
+**Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (November 2015). Developmental trajectories of vocabulary composition across languages. Poster presented at the 40th Annual Boston University Conference on Language Development. Boston, MA.
+
+Lewis, M., **Braginsky, M.**, Bergmann, C., Tsuji, S., Cristia, A., and Frank, M. C. (November 2015). MetaLab: A tool for power analysis and experimental planning in developmental research. Talk presented by Molly Lewis at the 40th Annual Boston University Conference on Language Development. Boston, MA.
+
+**Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (July 2015). Developmental changes in the relationship between grammar and the lexicon. Poster presented at the 37th Annual Conference of the Cognitive Science Society. Pasadena, CA.
+
+Frank, M. C., Yurovsky, D., Schneider, R., **Braginsky, M.**, and Marchman, V. A. (March 2015). Studying children's vocabulary development at scale. Talk presented by Michael Frank at the 2015 Society for Research in Child Development Biennial Meeting. Philadephia, PA.
+
+Frank, M. C., Yurovsky, D., Krishna, R., **Braginsky, M.**, and Marchman, V. A. (November 2014). Wordbank: An open repository for developmental vocabulary data. Poster presented by Michael Frank at the 39th Annual Boston University Conference on Language Development. Boston, MA.
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+
+
+# Awards
+\hrule
+\vspace{3pt}
+
+NSF Graduate Research Fellowship, 2016
+
+# Skills
+\hrule
+\vspace{3pt}
+
+| **Programming**: Proficient in R, Python, JavaScript; familiar with SQL, Java, MATLAB, Scheme
+| **Tools**: Linux, Git, Subversion, EC2, Apache, HTML, CSS, \LaTeX
+| **Languages**: Native English and Russian, conversational Hebrew
