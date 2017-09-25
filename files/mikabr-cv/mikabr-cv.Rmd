@@ -14,7 +14,7 @@ author: Mika Braginsky
 #address: "Guinness Brewery · Park Royal · London NW10 7RR, UK"
 email: mikabr@mit.edu
 github: mikabr
-phone: "617-519-3623"
+#phone: "617-519-3623"
 web: mikabr.github.io
 updated: no
 
@@ -39,7 +39,7 @@ urlcolor: #268bd2
 |     B.S. in Computer Science and Engineering \& Brain and Cognitive Sciences, June 2014
 
 
-# Academic Appointments
+# Academic Positions
 \hrule
 \vspace{3pt}
 
@@ -62,6 +62,8 @@ urlcolor: #268bd2
 **Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (in prep). Consistency and variability in word learning across languages.
 
 Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A., Frank, M. C. (under review). A quantitative synthesis of early language acquisition using meta-analysis.
+
+Bergmann, C., Tsuji, S., Piccinini, P., Lewis, M., **Braginsky, M.**, Frank, M. C., Cristia, A. (in press). Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research. Child Development.
 
 **Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (2016). From *uh-oh* to *tomorrow*: Predicting age of acquisition for early words across languages. In *Proceedings of the 38th Annual Conference of the Cognitive Science Society*.
 
