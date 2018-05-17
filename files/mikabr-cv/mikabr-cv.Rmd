@@ -68,7 +68,7 @@ urlcolor: #268bd2
 Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A., Frank, M. C. (under revision). A quantitative synthesis of early language acquisition using meta-analysis.
 -->
 
-- Bergmann, C., Tsuji, S., Piccinini, P., Lewis, M., **Braginsky, M.**, Frank, M. C., Cristia, A. (in press). Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research. Child Development.
+- Bergmann, C., Tsuji, S., Piccinini, P., Lewis, M., **Braginsky, M.**, Frank, M. C., Cristia, A. (2018). Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research. Child Development.
 
 - Frank, M. C., **Braginsky, M.**, Yurovsky, D., and Marchman, V. A. (2016). Wordbank: An open repository for developmental vocabulary data. Journal of Child Language.
 
