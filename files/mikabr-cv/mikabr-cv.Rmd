@@ -60,7 +60,7 @@ urlcolor: #268bd2
 
 # Journal Articles
 
-- Sanchez, A., Meylan, S. C., **Braginsky, M.**, MacDonald, K. E., Yurovsky, D., Frank, M. C. (under review). childes-db: a flexible and reproducible interface to the Child Language Data Exchange System.
+- Sanchez, A., Meylan, S. C., **Braginsky, M.**, MacDonald, K. E., Yurovsky, D., Frank, M. C. (under revision). childes-db: a flexible and reproducible interface to the Child Language Data Exchange System.
 
 - **Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (under revision). Consistency and variability in word learning across languages.
 
@@ -132,13 +132,13 @@ Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A
 
 # Service
 
-- Co-organize weekly CogLunch talk series in MIT BCS department \hfill Sep 2017 -- Present
+- Co-organized weekly CogLunch talk series in MIT BCS department \hfill Sep 2017 -- May 2018
 - Member and reviewer for Cognitive Science Society \hfill Feb 2015 -- Present
 
 
 # Software
 
-|  __`Wordbank`__ (co-creator and formerly primary maintainer)
+|  __`Wordbank`__ (co-creator and former primary maintainer)
 |     `wordbank.stanford.edu`
 |     A database of vocabulary development data from the CDI and interactive tools for its access
 
@@ -154,7 +154,7 @@ Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A
 |     `github.com/mhtess/rwebppl`
 |     An R interface to the WebPPL probabilistic programming language
 
-| __`MetaLab`__ (co-creator and formerly primary maintainer)
+| __`MetaLab`__ (co-creator and former primary maintainer)
 |     `metalab.stanford.edu`  
 |     Interactive tools for community-augmented meta-analysis in cognitive development research
 
