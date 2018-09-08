@@ -1,0 +1,80 @@
+- title: Research
+  icon: flask
+  color: cyan
+  items:
+    - name: Variability and consistency in early language learning
+      text: Book of large-scale cross-linguistic analyses using data from the Wordbank project
+      width: 6
+      links:
+        - url: https://langcog.github.io/wordbank-book/
+          icon: book
+        - url: https://github.com/langcog/wordbank-book
+          icon: github
+    - name: Consistency and variability in word learning across languages
+      text: Paper on predicting words' acquisition trajectories from their properties
+      width: 6
+      links:
+        - url: https://psyarxiv.com/cg6ah/
+          icon: file
+        - url: https://github.com/mikabr/aoa-prediction
+          icon: github
+
+- title: Tools
+  icon: wrench
+  color: green
+  items:
+    - name: Wordbank
+      text: Database of vocabulary development data and interactive tools for its access
+      width: 4
+      links:
+        - url: http://wordbank.stanford.edu
+          icon: globe
+        - url: https://github.com/langcog/wordbank
+          icon: github
+    - name: wordbankr
+      text: R package for retrieving data from Wordbank
+      width: 4
+      links:
+        - url: https://langcog.github.io/wordbankr/
+          icon: info-circle
+        - url: https://github.com/langcog/wordbankr
+          icon: github
+    - name: childesr
+      text: R package for accessing childes-db, a database of child language corpora
+      width: 4
+      links:
+        - url: http://childes-db.stanford.edu/api.html
+          icon: info-circle
+        - url: https://github.com/langcog/childesr
+          icon: github
+    - name: rwebppl
+      text: R interface to the WebPPL probabilistic programming language
+      width: 4
+      links:
+        - url: https://github.com/mhtess/rwebppl/wiki/Introduction
+          icon: info-circle
+        - url: https://github.com/mhtess/rwebppl
+          icon: github
+    - name: ggpirate
+      text: R package for making plots of data with categorical independent variables
+      width: 4
+      links:
+        - url: https://github.com/mikabr/ggpirate
+          icon: github
+    - name: tidyboot
+      text: R package for doing tidyverse-compatible bootstrapping
+      width: 4
+      links:
+        - url: https://github.com/langcog/tidyboot
+          icon: github
+
+- title: Teaching
+  icon: graduation-cap
+  color: orange
+  items:
+    - name: Laboratory in Psycholinguistics
+      text: TA spring 2018
+      width: 4
+      links:
+        - url: https://web.mit.edu/psycholinglab/public/
+          icon: globe

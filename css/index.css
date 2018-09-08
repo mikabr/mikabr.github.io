@@ -3,57 +3,70 @@ body {
   padding-bottom: 20px;
 }
 
-.header,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
+header {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
-/* Custom page header */
-.header {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
+header p {
+  margin-bottom: 0;
 }
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
+
+header h2 {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 40px;
 }
 
-/* Custom page footer */
-.footer {
+footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
   margin-top: 40px;
 }
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-}
-.container-narrow > hr {
-  margin: 30px 0;
+.container {
+  max-width: 730px;
 }
 
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .header,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
+/*
+a:link {
+  color: var(--blue);
 }
 
-.pad {
-  margin-bottom: 3px;
+a:visited {
+  color: var(--violet);
+}
+*/
+
+.fa-color-blue {
+  color: var(--blue);
+}
+.fa-color-cyan {
+  color: var(--cyan);
+}
+.fa-color-green {
+  color: var(--green);
+}
+.fa-color-magenta {
+  color: var(--magenta);
+}
+.fa-color-orange {
+  color: var(--orange);
+}
+.fa-color-red {
+  color: var(--red);
+}
+.fa-color-violet {
+  color: var(--violet);
+}
+.fa-color-yellow {
+  color: var(--yellow);
+}
+
+.right {
+  float: right;
+  vertical-align: top;
 }

@@ -1,0 +1,121 @@
+---
+output:
+  html_document:
+    theme: cosmo
+    css:
+      - css/solarized.css
+      - css/index.css
+      - css/bs-callout.css
+    includes:
+      in_header: header.html
+---
+
+```{r, include=FALSE}
+library(shiny)
+library(glue)
+library(lubridate)
+library(yaml)
+library(purrr)
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      cache = FALSE)
+tagList(rmarkdown::html_dependency_font_awesome())
+
+components <- read_yaml("components.yaml")
+```
+
+<div class="container">
+```{r, header}
+tags$header(
+  fluidRow(
+    column(width = 4, h2("Mika Braginsky")),
+    column(
+      width = 3, align = "center",
+      tags$small(
+        p("Pronouns: ", span(style = "color:#2aa198", "they/them")),
+        p("Email: ",
+          a(href = "mailto:mika.br@gmail.com", "mika.br@gmail.com"))
+      )
+    ),
+    column(
+      width = 5, align = "right",
+      tags$nav(
+        tags$ul(
+          class = "nav nav-pills pull-right",
+          tags$li(
+            role = "presentation",
+            a(href = "https://github.com/mikabr", icon("github"), "GitHub")
+          ),
+          tags$li(
+            role = "presentation",
+            a(href = "files/mikabr-cv/mikabr-cv.pdf", icon("file-alt"), "CV")
+          ),
+          tags$li(
+            role = "presentation",
+            a(href = "https://scholar.google.com/citations?user=VNAMYHMAAAAJ",
+              icon("edit"), "Papers")
+          )
+        )
+      )
+    )
+  )
+)
+```
+
+I'm a graduate student in the [Computational Psycholinguistics Lab](http://cpl.mit.edu) at MIT, advised by [Roger Levy](http://www.mit.edu/~rplevy/).
+
+Before that I was a research assistant in the [Language and Cognition Lab](http://langcog.stanford.edu/) at Stanford, working with [Mike Frank](http://web.stanford.edu/~mcfrank/).
+
+```{r}
+div(
+  map(components, function(section) {
+    tagList(
+      HTML(glue('<h3>
+                <i class="fa fa-{section$icon} fa-color-{section$color}"></i>
+                {section$title}</h3>')),
+      fluidRow(
+        map(section$items, function(item) {
+          column(width = item$width,
+                 div(class = glue("bs-callout bs-callout-{section$color}"),
+                     div(class = "right",
+                         map(item$links, function(link) {
+                           a(href = link$url, icon(link$icon))
+                         })),
+                     h4(item$name),
+                     p(item$text)))
+        })
+      )
+    )
+  }),
+  HTML(glue('<h3>
+            <i class="fa fa-ellipsis-h fa-color-violet"></i>
+            Miscellaneous</h3>')),
+  fluidRow(
+    column(width = 5,
+           div(class = glue("bs-callout bs-callout-violet"),
+               h4("Interactive visualizations"),
+               "Cambridge election results 2017",
+               div(class = "right",
+                   a(href = "https://mikabr.shinyapps.io/cambridge/",
+                     icon("external-link"))),
+               br(),
+               "Trends in name genders",
+               div(class = "right",
+                   a(href = "https://mikabr.shinyapps.io/names/",
+                     icon("external-link"))),
+               br(),
+               "Multilingual translation",
+               div(class = "right",
+                   a(href = "https://mikabr.shinyapps.io/linger/",
+                     icon("external-link")))
+           )
+    )
+  )
+)
+```
+
+```{r}
+tags$footer(p(HTML("&copy;"), glue(" Mika Braginsky {year(today())}")))
+```
+
+</div>

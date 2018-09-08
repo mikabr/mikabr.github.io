@@ -1,0 +1,74 @@
+.bs-callout {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-blue {
+    border-left-color: var(--blue);
+}
+.bs-callout-blue h4 {
+    color: var(--blue);
+}
+.bs-callout-cyan {
+    border-left-color: var(--cyan);
+}
+.bs-callout-cyan h4 {
+    color: var(--cyan);
+}
+.bs-callout-green {
+    border-left-color: var(--green);
+}
+.bs-callout-green h4 {
+    color: var(--green);
+}
+.bs-callout-magenta {
+    border-left-color: var(--magenta);
+}
+.bs-callout-magenta h4 {
+    color: var(--magenta);
+}
+.bs-callout-orange {
+    border-left-color: var(--orange);
+}
+.bs-callout-orange h4 {
+    color: var(--orange);
+}
+.bs-callout-red {
+    border-left-color: var(--red);
+}
+.bs-callout-red h4 {
+    color: var(--red);
+}
+.bs-callout-violet {
+    border-left-color: var(--violet);
+}
+.bs-callout-violet h4 {
+    color: var(--violet);
+}
+.bs-callout-yellow {
+    border-left-color: var(--yellow);
+}
+.bs-callout-yellow h4 {
+    color: var(--yellow);
+}
