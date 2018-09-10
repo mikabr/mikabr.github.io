@@ -72,9 +72,9 @@
   icon: graduation-cap
   color: orange
   items:
-    - name: Laboratory in Psycholinguistics
+    - name: Lab in Psycholinguistics
       text: TA spring 2018
-      width: 4
+      width: 5
       links:
         - url: https://web.mit.edu/psycholinglab/public/
           icon: globe
