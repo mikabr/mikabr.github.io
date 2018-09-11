@@ -31,15 +31,13 @@ footer {
 }
 
 
-/*
 a:link {
   color: var(--blue);
 }
 
 a:visited {
-  color: var(--violet);
+  color: var(--blue);
 }
-*/
 
 .fa-color-blue {
   color: var(--blue);
