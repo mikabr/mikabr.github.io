@@ -1,4 +1,5 @@
 ---
+title: Mika Braginsky
 output:
   html_document:
     theme: cosmo
@@ -16,9 +17,9 @@ library(glue)
 library(lubridate)
 library(yaml)
 library(purrr)
+library(knitr)
 
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
-                      cache = FALSE)
+opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
 tagList(rmarkdown::html_dependency_font_awesome())
 
 components <- read_yaml("components.yaml")
