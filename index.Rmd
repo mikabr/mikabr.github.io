@@ -35,7 +35,10 @@ tags$header(
       tags$small(
         p("Pronouns: ", span(style = "color:#2aa198", "they/them")),
         p("Email: ",
-          a(href = "mailto:mika.br@gmail.com", "mika.br@gmail.com"))
+          a(id = "email"))
+          # a(href = "mailto:mika.br&#064;gmail&#046;com",
+          #   "mika.br&#064;gmail&#046;com"))
+            # tags$script("document.write('mika.br@gmail.com')")))
       )
     ),
     column(
