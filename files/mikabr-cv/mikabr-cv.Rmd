@@ -5,19 +5,18 @@ output:
     template: svm-latex-cv.tex
 geometry: margin=0.8in
 
-fontawesome: yes
-
 title: "CV"
 author: Mika Braginsky
 
 email: mikabr@mit.edu
 github: mikabr
 web: mikabr.github.io
-updated: no
 
-fontfamily: mathpazo
-fontfamilyoptions: sc, osf
+mainfont: SourceSerifPro-Regular
+sansfont: SourceSansPro-Regular
+monofont: SourceCodePro-Regular
 fontsize: 11pt
+fontawesome: yes
 linkcolor: #268bd2
 urlcolor: #268bd2
 ---
@@ -62,7 +61,7 @@ urlcolor: #268bd2
 
 - **Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (under revision). Consistency and variability in word learning across languages. Accepted for publication at OpenMind.
 
-- Sanchez, A., Meylan, S. C., **Braginsky, M.**, MacDonald, K. E., Yurovsky, D., Frank, M. C. (in press). childes-db: a flexible and reproducible interface to the Child Language Data Exchange System. Accepted for publication at Behavioral Research Methods.
+- Sanchez, A., Meylan, S. C., **Braginsky, M.**, MacDonald, K. E., Yurovsky, D., Frank, M. C. (2018). childes-db: a flexible and reproducible interface to the Child Language Data Exchange System. Behavioral Research Methods.
 
 <!--
 Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A., Frank, M. C. (under revision). A quantitative synthesis of early language acquisition using meta-analysis.
@@ -87,7 +86,7 @@ Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A
 
 # Conference Presentations
 
-- **Braginsky, M.**, Levy, R., and O'Donnell, T. (July 2018). Evaluating models of productivity in language acquisition. Posterpresented at the 40th Annual Meeting of the Cognitive Science Society. Madison, WI.
+- **Braginsky, M.**, Levy, R., and O'Donnell, T. (July 2018). Evaluating models of productivity in language acquisition. Poster presented at the 40th Annual Meeting of the Cognitive Science Society. Madison, WI.
 
 - Tsuji, S., Bergmann, C., Lewis, M., **Braginsky, M.**, Piccinini, P., Frank, M. C., and Cristia, A. (August 2017). MetaLab: A repository for meta-analyses on language development, and more. Talk presented by Sho Tsuji at Interspeech 2017. Stockholm, Sweden.
 
