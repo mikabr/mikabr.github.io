@@ -26,7 +26,7 @@ urlcolor: #268bd2
 
 | **Massachusetts Institute of Technology** \hfill Sep 2016 -- Present
 |     Ph.D. Candidate, Brain and Cognitive Sciences
-|     Advisor: Roger Levy
+|     Advisor: Ted Gibson
 
 | **Massachusetts Institute of Technology** \hfill Sep 2010 -- June 2014
 |     B.S. in Computer Science and Engineering \& Brain and Cognitive Sciences
@@ -35,8 +35,8 @@ urlcolor: #268bd2
 # Research Experience
 
 | **Graduate Student Researcher** \hfill Sep 2016 -- Present
-|     Computational Psycholinguistics Lab, MIT
-|     PI: Roger Levy
+|     TedLab, MIT (PI: Ted Gibson)
+|     Computational Psycholinguistics Lab, MIT (PI: Roger Levy)
 
 | **Research Assistant** \hfill Sep 2014 -- June 2016
 |     Language and Cognition Lab, Stanford University
@@ -52,20 +52,17 @@ urlcolor: #268bd2
 
 # Awards and Fellowships
 
-<!-- - Henry E. Singleton Fellowship, MIT (2017-2018) -->
-- Society for Language Development Student Award, awarded October 2016
-- National Science Foundation Graduate Research Fellowship, awarded April 2016
+- Angus MacDonald Award for Excellence in Undergraduate Teaching (awarded February 2019)
+- Henry E. Singleton Fellowship, MIT (2017-2018)
+- Society for Language Development Student Award (awarded October 2016)
+- National Science Foundation Graduate Research Fellowship (awarded April 2016)
 
 
 # Journal Articles
 
-- **Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (under revision). Consistency and variability in word learning across languages. Accepted for publication at OpenMind.
+- **Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (in press). Consistency and variability in word learning across languages. OpenMind: Discoveries in Cognitive Science.
 
 - Sanchez, A., Meylan, S. C., **Braginsky, M.**, MacDonald, K. E., Yurovsky, D., Frank, M. C. (2018). childes-db: a flexible and reproducible interface to the Child Language Data Exchange System. Behavioral Research Methods.
-
-<!--
-Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A., Frank, M. C. (under revision). A quantitative synthesis of early language acquisition using meta-analysis.
--->
 
 - Bergmann, C., Tsuji, S., Piccinini, P., Lewis, M., **Braginsky, M.**, Frank, M. C., Cristia, A. (2018). Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research. Child Development.
 
@@ -85,6 +82,8 @@ Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A
 
 
 # Conference Presentations
+
+- **Braginsky, M.**, Marchman, V. A., and Frank, M. C. (March 2019). Demographic effects on the composition of children's early vocabulary. Talk presented at the 2019 Society for Research in Child Development Biennial Meeting. Baltimore, MD.
 
 - **Braginsky, M.**, Levy, R., and O'Donnell, T. (July 2018). Evaluating models of productivity in language acquisition. Poster presented at the 40th Annual Meeting of the Cognitive Science Society. Madison, WI.
 
@@ -117,13 +116,13 @@ Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A
 
 # Departmental Presentations
 
-- **Braginsky, M.**. (October 2018). Understanding productivity inferences in children and models. CogLunch, Department of Brain and Cognitive Sciences, MIT.
+- **Braginsky, M.** (October 2018). Understanding productivity inferences in children and models. CogLunch, Department of Brain and Cognitive Sciences, MIT.
 
 - **Braginsky, M.**, Levy, R., and O'Donnell, T. (October 2017). Bayesian models of productivity in acquisition. CogLunch, Department of Brain and Cognitive Sciences, MIT.
 
 # Teaching
 
-| **Teaching Assistant** \hfill Spring 2018
+| **Teaching Assistant** \hfill Spring 2018, Spring 2019
 |     Laboratory in Psycholinguistics, MIT
 |     Instructor: Ted Gibson
 
@@ -133,8 +132,8 @@ Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A
 
 # Service
 
-- Co-organized weekly CogLunch talk series in MIT BCS department \hfill Sep 2017 -- May 2018
-- Member and reviewer for Cognitive Science Society \hfill Feb 2015 -- Present
+- Reviewer for Journal of Child Language, Cognitive Science Society
+- Co-organizer of weekly CogLunch talk series in MIT BCS department \hfill Sep 2017 -- May 2018
 
 
 # Software
@@ -167,6 +166,9 @@ Lewis, M., **Braginsky, M.**, Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A
 |     `github.com/langcog/tidyboot`  
 |     An R package for doing tidyverse-compatible bootstrapping
 
+| __`jglmm`__ (creator and maintainer)
+|     `github.com/mikabr/jglmm`  
+|     An R package for fitting generalized linear fixed effects models in Julia
 
 \centering
 \vspace{2em}

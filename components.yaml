@@ -2,7 +2,7 @@
   icon: flask
   color: cyan
   items:
-    - name: Variability and consistency in early language learning
+    - name: "Variability and Consistency in Early Language Learning: The Wordbank Project"
       text: Book of large-scale cross-linguistic analyses using data from the Wordbank project
       width: 6
       links:
@@ -10,7 +10,7 @@
           icon: book
         - url: https://github.com/langcog/wordbank-book
           icon: github
-    - name: Consistency and variability in word learning across languages
+    - name: Consistency and variability in children's word learning across languages
       text: Paper on predicting words' acquisition trajectories from their properties
       width: 6
       links:
@@ -67,13 +67,19 @@
       links:
         - url: https://github.com/langcog/tidyboot
           icon: github
+    - name: jglmm
+      text: R package for fitting generalized linear mixed effects models in Julia from R
+      width: 4
+      links:
+        - url: https://github.com/mikabr/jglmm
+          icon: github
 
 - title: Teaching
   icon: graduation-cap
   color: orange
   items:
     - name: Lab in Psycholinguistics
-      text: TA spring 2018
+      text: TA spring 2018 & spring 2019
       width: 5
       links:
         - url: https://web.mit.edu/psycholinglab/public/

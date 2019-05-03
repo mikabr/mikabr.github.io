@@ -253,7 +253,7 @@ $endif$
 \footnotesize
 $if(jobtitle)$\moveleft.5\hoffset\centerline{$jobtitle$}$endif$
 $if(address)$\moveleft.5\hoffset\centerline{$address$}$endif$
-\moveleft.5\hoffset\centerline{ $if(email)$$if(fontawesome)$\scalebox{1.3}{\faEnvelope}$else$\emph{E-mail:}$endif$ \href{mailto:}{\tt $email$} \hspace{2 mm}$endif$ $if(github)$$if(fontawesome)$\scalebox{1.4}{\faGithub}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{\tt $github$} \hspace{2 mm} $endif$   $if(web)$$if(fontawesome)$\scalebox{1.4}{\faGlobe}$else$\emph{Web:}$endif$ \href{http://$web$}{\tt $web$}  \hspace{2 mm} $endif$   $if(phone)$$if(fontawesome)$ \scalebox{1.4}{\faMobilePhone}$else$\emph{Phone:}$endif$  {\tt $phone$}  \hspace{2 mm} $endif$} %   $if(updated)$ | \emph{Updated:} \today$endif$}
+\moveleft.5\hoffset\centerline{ $if(email)$$if(fontawesome)$\scalebox{1.3}{\faEnvelope}\hspace{.5 mm}$else$\emph{E-mail:}$endif$ \href{mailto:}{\tt $email$} \hspace{2 mm}$endif$ $if(github)$$if(fontawesome)$\scalebox{1.4}{\faGithub}\hspace{.5 mm}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{\tt $github$} \hspace{2 mm} $endif$   $if(web)$$if(fontawesome)$\scalebox{1.4}{\faLink}\hspace{.5 mm}$else$\emph{Web:}$endif$ \href{http://$web$}{\tt $web$}  \hspace{2 mm} $endif$   $if(phone)$$if(fontawesome)$ \scalebox{1.4}{\faMobilePhone}\hspace{.5 mm}$else$\emph{Phone:}$endif$  {\tt $phone$}  \hspace{2 mm} $endif$} %   $if(updated)$ | \emph{Updated:} \today$endif$}
 \normalsize
 
 % \vspace{2 mm}

@@ -66,7 +66,7 @@ tags$header(
 )
 ```
 
-I'm a graduate student in the [Computational Psycholinguistics Lab](http://cpl.mit.edu) at MIT, advised by [Roger Levy](http://www.mit.edu/~rplevy/).
+I'm a graduate student in the [Department of Brain and Cognitive Sciences](http://bcs.mit.edu) at MIT, advised by [Ted Gibson](http://tedlab.mit.edu/people.html).
 
 Before that I was a research assistant in the [Language and Cognition Lab](http://langcog.stanford.edu/) at Stanford, working with [Mike Frank](http://web.stanford.edu/~mcfrank/).
 
