@@ -1,0 +1,79 @@
+---
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    template: svm-latex-cv.tex
+    keep_tex: true
+geometry: margin=.8in
+
+title: "Resume"
+author: Mika Braginsky
+
+pronouns: they/them
+email: mikabr@mit.edu
+github: mikabr
+web: mikabr.github.io
+
+mainfont: SourceSansPro-Regular
+sansfont: SourceSansPro-Regular
+monofont: SourceCodePro-Regular
+fontsize: 11pt
+fontawesome: yes
+---
+
+  
+# \faGraduationCap \hspace{1pt} Education
+
+| **Massachusetts Institute of Technology** \hfill Sep 2016 -- Present
+|     Ph.D. Candidate and NSF GRFP Fellow, Brain and Cognitive Sciences
+
+| **Massachusetts Institute of Technology** \hfill Sep 2010 -- Jun 2014
+|     B.S. in Computer Science and Engineering \& Brain and Cognitive Sciences
+
+```{r pkgs, cache=TRUE, include=FALSE}
+library(tidyverse)
+pkgs <- dlstats::cran_stats(c("wordbankr", "childesr", "tidyboot")) %>%
+  group_by(package) %>% summarise(downloads = sum(downloads))
+pkgs <- set_names(pkgs$downloads, pkgs$package)
+```
+
+# \faGears \hspace{2pt} Open source software \hfill {\small primary developer}
+
+\project{jglmm}{github.com/mikabr/jglmm}{Dec 2018 -- Present}{R package for fitting generalized linear mixed effects models in Julia.}
+
+\project{ggpirate}{github.com/mikabr/ggpirate}{Sep 2017 -- Present}{R package for making more informative alternatives to bar plots.}
+
+\project{childesr}{github.com/langcog/childesr}{Aug 2017 -- Present}{R package for accessing childes-db, a database of child language corpora.}
+<!-- Has `r pkgs["childesr"]` CRAN downloads.} -->
+
+\project{rwebppl}{github.com/mhtess/rwebppl}{Feb 2016 -- Present}{R package providing an interface to the WebPPL probabilistic programming language.}
+
+\project{wordbankr}{github.com/langcog/wordbankr}{Jul 2015 -- Present}{R package for accessing Wordbank, a database of vocabulary development data.}
+<!-- Has `r pkgs["wordbankr"]` CRAN downloads.} -->
+
+\project{tidyboot}{github.com/langcog/tidyboot}{Jun 2015 -- Present}{R package for doing tidyverse-compatible bootstrapping.}
+<!-- Has `r pkgs["tidyboot"]` CRAN downloads.} -->
+
+\project{Wordbank}{wordbank.stanford.edu}{Mar 2014 -- Aug 2017}{Database of vocabulary development data (using Python and MySQL).\\ Interactive tools for its access (using R Shiny).\\ Demo presented at RStudio Shiny Developer Conference 2016.}
+
+\project{MetaLab}{metalab.stanford.edu}{Mar 2015 -- May 2016}{Interactive visualizations (using R Shiny) for community-augmented meta-analysis.}
+
+<!-- \project{}{}{}{} -->
+
+# \faBriefcase \hspace{2pt} Other experience
+
+<!-- \project{Co-Author, Wordbank Book}{langcog.github.io/wordbank-book}{Nov 2016 -- Present}{} -->
+
+\project{Teaching Assistant, Laboratory in Psycholinguistics}{}{Feb 2018 -- May 2018}{Taught weekly labs on tidyverse-based data analysis and visualization.\\Improved course materials ({\small \href{http://web.mit.edu/psycholinglab/public}{web.mit.edu/psycholinglab/public}}).}
+
+\project{Independent Contractor, rOpenSci}{}{Jun 2016 -- Jul 2016}{Developed an R package for automatic deployment of R package documentation by Travis CI.}
+<!-- https://github.com/ropenscilabs/travis -->
+
+<!-- \project{Participant, rOpenSci Hackout 3}{}{Jun 2016}{} -->
+
+\project{Participant, rOpenSci Unconference 2016}{}{Mar 2016}{Contributed to developing an R package for community-driven color palettes.}
+<!-- https://github.com/ropenscilabs/colorpiler -->
+
+\project{Research and Development Intern, Basis Technology}{}{Jun 2013 -- Aug 2013}{Improved a statistical model for named-entity resolution (using Java and Python).}
+
+<!-- Improved a statistical model for named-entity resolution and entity linking through error analysis and software development (using Java and Python). -->
