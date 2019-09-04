@@ -99,8 +99,10 @@ div(
 ```
 
 ```{r}
-tags$footer(p(HTML("&copy;"),
-              glue(" Mika Braginsky {lubridate::year(lubridate::today())}")))
+tags$footer(
+  div(class = "right", a(href = "https://github.com/mikabr/mikabr.github.io", icon("github"))),
+  p(HTML("&copy;"), glue(" Mika Braginsky {lubridate::year(lubridate::today())}"))
+)
 ```
 
 </div>
