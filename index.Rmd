@@ -9,20 +9,19 @@ output:
       - css/bs-callout.css
     includes:
       in_header: header.html
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r, include=FALSE}
 library(shiny)
 library(glue)
-library(lubridate)
-library(yaml)
 library(purrr)
-library(knitr)
 
-opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
 tagList(rmarkdown::html_dependency_font_awesome())
 
-components <- read_yaml("components.yaml")
+components <- yaml::read_yaml("components.yaml")
 ```
 
 <div class="container">
@@ -33,13 +32,8 @@ tags$header(
     column(
       width = 3, align = "center",
       tags$small(
-        p("Pronouns: ", span(style = "color:#2aa198", "they/them")),
-        p("Email: ",
-          a(id = "email"))
-          # a(href = "mailto:mika.br&#064;gmail&#046;com",
-          #   "mika.br&#064;gmail&#046;com"))
-            # tags$script("document.write('mika.br@gmail.com')")))
-      )
+        p("Pronouns: ", span(id = "pronouns", "they/them")),
+        p("Email: ", a(id = "email")))
     ),
     column(
       width = 5, align = "right",
@@ -86,40 +80,27 @@ div(
                            a(href = link$url, icon(link$icon))
                          })),
                      h4(item$name),
-                     p(item$text)))
+                     if ("html" %in% names(item) && item$html) HTML(item$text) else p(item$text),
+                     if (length(item$with)) {
+                       div(class = "with", "with ",
+                           HTML(paste(
+                             map(item$with,
+                                 ~glue('<a href="{.$url}">{.$name}</a>')
+                             ), collapse = ", "))
+                       )
+                     }
+                 )
+          )
         })
       )
     )
-  }),
-  HTML(glue('<h3>
-            <i class="fa fa-ellipsis-h fa-color-violet"></i>
-            Miscellaneous</h3>')),
-  fluidRow(
-    column(width = 5,
-           div(class = glue("bs-callout bs-callout-violet"),
-               h4("Interactive visualizations"),
-               "Cambridge election results 2017",
-               div(class = "right",
-                   a(href = "https://mikabr.shinyapps.io/cambridge/",
-                     icon("external-link"))),
-               br(),
-               "Trends in name genders",
-               div(class = "right",
-                   a(href = "https://mikabr.shinyapps.io/names/",
-                     icon("external-link"))),
-               br(),
-               "Multilingual translation",
-               div(class = "right",
-                   a(href = "https://mikabr.shinyapps.io/linger/",
-                     icon("external-link")))
-           )
-    )
-  )
+  })
 )
 ```
 
 ```{r}
-tags$footer(p(HTML("&copy;"), glue(" Mika Braginsky {year(today())}")))
+tags$footer(p(HTML("&copy;"),
+              glue(" Mika Braginsky {lubridate::year(lubridate::today())}")))
 ```
 
 </div>

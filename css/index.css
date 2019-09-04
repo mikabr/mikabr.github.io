@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgb(238, 238, 238);
   padding-bottom: 5px;
   margin-top: 20px;
   margin-bottom: 15px;
@@ -21,8 +21,8 @@ header h2 {
 
 footer {
   padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+  color: var(--base0);
+  border-top: 1px solid rgb(238, 238, 238);
   margin-top: 40px;
 }
 
@@ -30,13 +30,16 @@ footer {
   max-width: 730px;
 }
 
-
 a:link {
   color: var(--blue);
 }
 
 a:visited {
   color: var(--blue);
+}
+
+#pronouns {
+  color: var(--cyan);
 }
 
 .fa-color-blue {
@@ -71,4 +74,26 @@ a:visited {
 
 .title {
   display: none;
+}
+
+h4 + p {
+  margin-bottom: 3px;
+}
+
+.with {
+  color: var(--base0);
+  font-size: 80%;
+  line-height: normal;
+}
+
+.with > a:link {
+  color: var(--base0);
+}
+
+.with > a:visited {
+  color: var(--base0);
+}
+
+h3 > i {
+  margin-right: 2px;
 }
