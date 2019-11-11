@@ -185,9 +185,9 @@
       width: 5
       html: true
       text: |
-        Cambridge election results 2017
+        Cambridge election results 2019
         <div class="right">
-          <a href="https://mikabr.shinyapps.io/cambridge/">
+          <a href="https://mikabr.shinyapps.io/cambridge2019/">
             <i class="fa fa-external-link"></i>
           </a>
         </div>
