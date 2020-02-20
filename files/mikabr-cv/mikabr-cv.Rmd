@@ -1,8 +1,9 @@
 ---
 output: 
   pdf_document:
-    latex_engine: xelatex
+    latex_engine: lualatex
     template: svm-latex-cv.tex
+    keep_tex: true
 geometry: margin=0.8in
 
 title: "CV"
@@ -10,13 +11,17 @@ author: Mika Braginsky
 
 email: mikabr@mit.edu
 github: mikabr
-web: mikabr.github.io
+web: mikabr.io
 
-mainfont: SourceSerifPro-Regular
-sansfont: SourceSansPro-Regular
-monofont: SourceCodePro-Regular
+mainfont: SourceSerifPro
+mainfontoptions:
+  - BoldFont=SourceSerifProBold
+  - ItalicFont=SourceSerifProItalic
+sansfont: SourceSansPro
+monofont: SourceCodePro
 fontsize: 11pt
-fontawesome: yes
+fontawesome: true
+graphics: true
 linkcolor: #268bd2
 urlcolor: #268bd2
 ---
@@ -25,7 +30,7 @@ urlcolor: #268bd2
 # Education
 
 | **Massachusetts Institute of Technology** \hfill Sep 2016 -- Present
-|     Ph.D. Candidate, Brain and Cognitive Sciences
+|     Ph.D. Candidate and NSF Graduate Research Fellow, Brain and Cognitive Sciences
 |     Advisor: Ted Gibson
 
 | **Massachusetts Institute of Technology** \hfill Sep 2010 -- June 2014
@@ -60,9 +65,9 @@ urlcolor: #268bd2
 
 # Journal Articles
 
-- **Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (in press). Consistency and variability in word learning across languages. OpenMind: Discoveries in Cognitive Science.
+- **Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (2019). Consistency and variability in word learning across languages. OpenMind: Discoveries in Cognitive Science.
 
-- Sanchez, A., Meylan, S. C., **Braginsky, M.**, MacDonald, K. E., Yurovsky, D., Frank, M. C. (2018). childes-db: a flexible and reproducible interface to the Child Language Data Exchange System. Behavioral Research Methods.
+- Sanchez, A., Meylan, S. C., **Braginsky, M.**, MacDonald, K. E., Yurovsky, D., Frank, M. C. (2019). childes-db: a flexible and reproducible interface to the Child Language Data Exchange System. Behavioral Research Methods.
 
 - Bergmann, C., Tsuji, S., Piccinini, P., Lewis, M., **Braginsky, M.**, Frank, M. C., Cristia, A. (2018). Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research. Child Development.
 
@@ -82,6 +87,10 @@ urlcolor: #268bd2
 
 
 # Conference Presentations
+
+- **Braginsky, M.**, Marchman, V. A., and Frank, M. C. (July 2020). Characterizing the relationship between lexical and morphological development. Talk to be presented at the XXII Biennial International Congress of Infant Studies. Glasgow, UK.
+
+- Meylan, S, **Braginsky, M.**, deMayo, B., Sanchez, A., Schonberg, C., Srinivasan, M., Vlach, H., Lupyan, G., Griffiths, T., Frank, M. C. (May 2019). Wordful: Tracking early productive vocabulary growth with smartphones. Talk presented by Stephan Meylan at the 44th Annual Boston University Conference on Language Development. Boston, MA.
 
 - **Braginsky, M.**, Marchman, V. A., and Frank, M. C. (March 2019). Demographic effects on the composition of children's early vocabulary. Talk presented at the 2019 Society for Research in Child Development Biennial Meeting. Baltimore, MD.
 
@@ -116,15 +125,21 @@ urlcolor: #268bd2
 
 # Departmental Presentations
 
+- **Braginsky, M.**, Marchman, V. A., and Frank, M. C. (November 2019). Characterizing the relationship between lexical and morphological development. Emerging Scholars of Psychological Science, Princeton University.
+
 - **Braginsky, M.** (October 2018). Understanding productivity inferences in children and models. CogLunch, Department of Brain and Cognitive Sciences, MIT.
 
 - **Braginsky, M.**, Levy, R., and O'Donnell, T. (October 2017). Bayesian models of productivity in acquisition. CogLunch, Department of Brain and Cognitive Sciences, MIT.
 
 # Teaching
 
-| **Teaching Assistant** \hfill Spring 2018, Spring 2019
+| **Teaching Assistant** \hfill Spring 2020, Spring 2019, Spring 2018
 |     Laboratory in Psycholinguistics, MIT
 |     Instructor: Ted Gibson
+
+| **Workshop Instructor** \hfill July 2019
+|     Large-scale data tools in child language acquisition
+|     LSA Linguistic Institute 2019
 
 | **Advanced Learning Assistant** \hfill Fall 2011
 |     Introduction to Electrical Engineering and Computer Science I
