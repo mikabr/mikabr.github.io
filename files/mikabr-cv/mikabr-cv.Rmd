@@ -66,18 +66,25 @@ urlcolor: #268bd2
 
 # Journal Articles
 
+- DeMayo, B., Kellier, D., **Braginsky, M.**, Bergmann, C., Hendriks, C., Rowland, C. F., Frank, M. C., & Marchman, V. (under review). Web-CDI: A system for online administration of the MacArthur-Bates Communicative Development Inventories.
+
 - **Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (2019). Consistency and variability in children's word learning across languages. OpenMind: Discoveries in Cognitive Science.
 
-- Sanchez, A., Meylan, S. C., **Braginsky, M.**, MacDonald, K. E., Yurovsky, D., Frank, M. C. (2019). childes-db: a flexible and reproducible interface to the Child Language Data Exchange System. Behavioral Research Methods.
+- Sanchez, A., Meylan, S. C., **Braginsky, M.**, MacDonald, K. E., Yurovsky, D., and Frank, M. C. (2019). childes-db: a flexible and reproducible interface to the Child Language Data Exchange System. Behavioral Research Methods.
 
-- Bergmann, C., Tsuji, S., Piccinini, P., Lewis, M., **Braginsky, M.**, Frank, M. C., Cristia, A. (2018). Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research. Child Development.
+- Bergmann, C., Tsuji, S., Piccinini, P., Lewis, M., **Braginsky, M.**, Frank, M. C., and Cristia, A. (2018). Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research. Child Development.
 
 - Frank, M. C., **Braginsky, M.**, Yurovsky, D., and Marchman, V. A. (2016). Wordbank: An open repository for developmental vocabulary data. Journal of Child Language.
 
 
 # Books
 
-- Frank, M. C., **Braginsky, M.**, Marchman, V. A., Yurovsky, D. (in press). Variability and Consistency in Early Language Learning: The Wordbank Project. Accepted for publication by MIT Press.
+- Frank, M. C., **Braginsky, M.**, Marchman, V. A., and Yurovsky, D. (in press). Variability and Consistency in Early Language Learning: The Wordbank Project. MIT Press.
+
+
+# Book Chapters
+
+- Mahowald, K., Dautriche, I., **Braginsky, M.**, and Gibson, E. (in press). Efficient communication and the organization of the lexicon. In *Oxford Handbook of the Mental Lexicon*. Oxford University Press.
 
 
 # Peer-Reviewed Conference Proceedings
@@ -138,7 +145,7 @@ urlcolor: #268bd2
 
 # Teaching
 
-| **Teaching Assistant** \hfill Spring 2020, Spring 2019, Spring 2018
+| **Teaching Assistant** \hfill Spring 2021, Spring 2020, Spring 2019, Spring 2018
 |     Laboratory in Psycholinguistics, MIT
 |     Instructor: Ted Gibson
 
