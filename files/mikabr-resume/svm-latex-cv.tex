@@ -194,10 +194,14 @@ $if(font)$\setmainfont{$font$}$endif$
 \titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
 
 \titleformat{\section}
-  {\rmfamily\mdseries\Large\bf\sc}{\thesection}{1em}{}[{\titlerule[0.4pt]}]
+  {\rmfamily\mdseries\Large\bf\sc}{\thesection}{1em}{}[{\titlerule[0.4pt]}\vspace{2pt}]
 
 % Use fontawesome. Note: you'll need TeXLive 2015. Update.
-$if(fontawesome)$\usepackage{fontawesome}$endif$
+$if(fontawesome)$
+\defaultfontfeatures{
+    Path = /usr/local/texlive/2019/texmf-dist/fonts/opentype/public/fontawesome/ }
+\usepackage{fontawesome}
+$endif$
 
 % Fancyhdr, as I tend to do with these personal documents.
 \usepackage{fancyhdr,lastpage}
@@ -217,6 +221,11 @@ $if(fontawesome)$\usepackage{fontawesome}$endif$
 \newcommand{\project}[4]{
   \textbf{#1} \hspace{4pt} \small \href{http://#2}{#2} \normalsize \hfill #3\\ \hangindent=15pt #4
 }
+
+% \newcommand{\iconPad}{\hspace{.5mm}}
+% \newcommand{\iconSep}{\hspace{2mm}}
+\newcommand{\iconPad}{.25mm}
+\newcommand{\iconSep}{2.5mm}
 
 % Always load hyperref last.
 \usepackage{hyperref}
@@ -257,12 +266,16 @@ $endif$
 
 % \vspace{2 mm}
 
-\small
+% \small
 $if(jobtitle)$\moveleft.5\hoffset\centerline{$jobtitle$}$endif$
 $if(address)$\moveleft.5\hoffset\centerline{$address$}$endif$
-\moveleft.5\hoffset\centerline{ $if(pronouns)$$if(fontawesome)$\scalebox{1.3}{\faCommentO}\hspace{.5 mm}$else$\emph{Pronouns:}$endif$ $pronouns$ \hspace{2 mm}$endif$ $if(email)$$if(fontawesome)$\scalebox{1.3}{\faEnvelopeO}\hspace{.5 mm}$else$\emph{E-mail:}$endif$ $email$ \hspace{2 mm}$endif$ $if(github)$$if(fontawesome)$\scalebox{1.5}{\faGithub}\hspace{.5 mm}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{$github$} \hspace{2 mm} $endif$   $if(web)$$if(fontawesome)$\scalebox{1.2}{\faExternalLink}\hspace{.5 mm}$else$\emph{Web:}$endif$ \href{http://$web$}{$web$}  \hspace{2 mm} $endif$   $if(phone)$$if(fontawesome)$ \scalebox{1.4}{\faMobilePhone}\hspace{.5 mm}$else$\emph{Phone:}$endif$  {\tt $phone$}  \hspace{2 mm} $endif$} %   $if(updated)$ | \emph{Updated:} \today$endif$}
+\moveleft.5\hoffset\centerline{ $if(pronouns)$$if(fontawesome)$\scalebox{1}{\faCommentO}\hspace{\iconPad}$else$\emph{Pronouns:}$endif$ $pronouns$ \hspace{\iconSep}$endif$
+$if(email)$$if(fontawesome)$\scalebox{1}{\faEnvelopeO}\hspace{\iconPad}$else$\emph{E-mail:}$endif$ $email$ \hspace{\iconSep}$endif$
+$if(github)$$if(fontawesome)$\scalebox{1.1}{\faGithub}\hspace{\iconPad}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{$github$} \hspace{\iconSep} $endif$
+$if(web)$$if(fontawesome)$\scalebox{1}{\faExternalLink}\hspace{\iconPad}$else$\emph{Web:}$endif$ \href{http://$web$}{$web$}  \hspace{\iconSep} $endif$
+$if(phone)$$if(fontawesome)$ \scalebox{1.4}{\faMobilePhone}\hspace{\iconPad}$else$\emph{Phone:}$endif$  {\tt $phone$}  \hspace{\iconSep} $endif$} %   $if(updated)$ | \emph{Updated:} \today$endif$}
 % $if(pronouns)$\moveleft.5\hoffset\centerline{Pronouns: $pronouns$}$endif$
-\normalsize
+% \normalsize
 
 % \vspace{2 mm}
 
