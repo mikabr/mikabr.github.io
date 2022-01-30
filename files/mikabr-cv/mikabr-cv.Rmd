@@ -29,23 +29,25 @@ urlcolor: #268bd2
 
 # Education
 
-| **Massachusetts Institute of Technology** \hfill Sep 2016 -- Present
-|     Ph.D. Candidate and NSF Graduate Research Fellow, Brain and Cognitive Sciences
-|     Advisor: Ted Gibson
+| **Massachusetts Institute of Technology**
+|     Ph.D., Brain and Cognitive Sciences (2022)
+|     Advisor: Edward Gibson
+|     Committee: Edward Gibson, Michael Frank, Timothy O'Donnell, Joshua Tenenbaum, Laura Schulz
+|     Thesis: *Language learning at scale: Data-driven and model-motivated analyses of lexical and morphological development*
 
-| **Massachusetts Institute of Technology** \hfill Sep 2010 -- June 2014
-|     B.S. in Computer Science and Engineering \& Brain and Cognitive Sciences
+| **Massachusetts Institute of Technology**
+|     B.S., Computer Science and Engineering \& Brain and Cognitive Sciences (2014)
 
 
 # Research Experience
 
-| **Graduate Student Researcher** \hfill Sep 2016 -- Present
-|     TedLab, MIT (PI: Ted Gibson)
+| **Graduate Student Researcher** \hfill Sep 2016 -- January 2022
+|     TedLab, MIT (PI: Edward Gibson)
 |     Computational Psycholinguistics Lab, MIT (PI: Roger Levy)
 
 | **Research Assistant** \hfill Sep 2014 -- June 2016
 |     Language and Cognition Lab, Stanford University
-|     PI: Michael C. Frank
+|     PI: Michael Frank
 
 | **Undergraduate Researcher** \hfill Sep 2013 -- Aug 2014
 |     Computational Cognitive Science Group, MIT
@@ -66,6 +68,8 @@ urlcolor: #268bd2
 
 # Journal Articles
 
+- Zettersten, M., Yurovsky, D., Xu, T., Uner, S., Tsui, A., ... **Braginsky, M.**, ... Frank, M. C. (under review). Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition.
+
 - DeMayo, B., Kellier, D., **Braginsky, M.**, Bergmann, C., Hendriks, C., Rowland, C. F., Frank, M. C., & Marchman, V. (2021). Web-CDI: A system for online administration of the MacArthur-Bates Communicative Development Inventories. Language Development Research.
 
 - **Braginsky, M.**, Yurovsky, D., Marchman, V. A., and Frank, M. C. (2019). Consistency and variability in children's word learning across languages. OpenMind: Discoveries in Cognitive Science.
@@ -84,7 +88,7 @@ urlcolor: #268bd2
 
 # Book Chapters
 
-- Mahowald, K., Dautriche, I., **Braginsky, M.**, and Gibson, E. (in press). Efficient communication and the organization of the lexicon. In *Oxford Handbook of the Mental Lexicon*. Oxford University Press.
+- Mahowald, K., Dautriche, I., **Braginsky, M.**, and Gibson, E. (2022). Efficient communication and the organization of the lexicon. In *Oxford Handbook of the Mental Lexicon*. Oxford University Press.
 
 
 # Peer-Reviewed Conference Proceedings
@@ -100,7 +104,7 @@ urlcolor: #268bd2
 
 # Conference Presentations
 
-- Zettersten, M., Saleh, A, Bhatt, N., Yurovsky, D., Xu, T. L., ..., **Braginsky, M.**, ..., and Frank, M C. (November 2021). Increases in speed and accuracy of children's online word recognition measured via a large-scale, open database of developmental eye-tracking data. Talk to to be presented by Martin Zettersten at the 46th Annual Boston University Conference on Language Development.
+- Zettersten, M., Saleh, A, Bhatt, N., Yurovsky, D., Xu, T. L., ..., **Braginsky, M.**, ..., and Frank, M. C. (November 2021). Increases in speed and accuracy of children's online word recognition measured via a large-scale, open database of developmental eye-tracking data. Talk to to be presented by Martin Zettersten at the 46th Annual Boston University Conference on Language Development.
 
 - Watt, M., **Braginsky, M.**, and O'Donnell, T. (July 2021). Processing differences among irregular inflection classes. Poster presented by Maya Watt at the 43rd Annual Meeting of the Cognitive Science Society.
 
@@ -153,11 +157,12 @@ urlcolor: #268bd2
 
 - **Braginsky, M.**, Levy, R., and O'Donnell, T. (October 2017). Bayesian models of productivity in acquisition. CogLunch, Department of Brain and Cognitive Sciences, MIT.
 
+
 # Teaching
 
 | **Teaching Assistant** \hfill Spring 2021, Spring 2020, Spring 2019, Spring 2018
 |     Laboratory in Psycholinguistics, MIT
-|     Instructor: Ted Gibson
+|     Instructor: Edward Gibson
 
 | **Workshop Instructor** \hfill July 2019
 |     Large-scale data tools in child language acquisition
@@ -169,7 +174,7 @@ urlcolor: #268bd2
 
 # Service
 
-- Reviewer for Journal of Child Language, Cognitive Science Society
+- Ad-hoc reviewer for Journal of Child Language, Language Development Research, Cognitive Science Society
 - Co-organizer of weekly CogLunch talk series in MIT BCS department \hfill Sep 2017 -- May 2018
 
 
