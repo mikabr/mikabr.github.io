@@ -2,11 +2,12 @@
 title: Mika Braginsky
 output:
   html_document:
+    self_contained: false
     theme: cosmo
     css:
       - css/solarized.css
-      - css/index.css
       - css/bs-callout.css
+      - css/index.css
     includes:
       in_header: header.html
 editor_options: 
@@ -46,12 +47,12 @@ tags$header(
           ),
           tags$li(
             role = "presentation",
-            a(href = "files/mikabr-cv/mikabr-cv.pdf", icon("file-alt"), "CV")
+            a(href = "files/mikabr-cv/mikabr-cv.pdf", icon("address-card"), "CV")
           ),
           tags$li(
             role = "presentation",
             a(href = "https://scholar.google.com/citations?user=VNAMYHMAAAAJ",
-              icon("edit"), "Papers")
+              icon("folder-open"), "Papers")
           )
         )
       )
@@ -60,42 +61,55 @@ tags$header(
 )
 ```
 
-I'm a graduate student in the [Department of Brain and Cognitive Sciences](http://bcs.mit.edu) at MIT, advised by [Ted Gibson](http://tedlab.mit.edu/people.html).
+I'm a postdoctoral scholar at the [Quantitative Sciences Unit](https://med.stanford.edu/qsu.html) at Stanford University. I work with [Maya Mathur](https://www.mayamathur.com) on tools for <strong>reducing bias in meta-analysis</strong> and on studies of interventions for <strong>reducing meat consumption</strong>.
 
-Before that I was a research assistant in the [Language and Cognition Lab](http://langcog.stanford.edu/) at Stanford, working with [Mike Frank](http://web.stanford.edu/~mcfrank/).
+Before that I got my PhD in [Brain and Cognitive Sciences](http://bcs.mit.edu) at MIT, where I studied <strong>language acquisition</strong>. I was advised by [Ted Gibson](http://tedlab.mit.edu/people.html) and also collaborated extensively with [Mike Frank](http://web.stanford.edu/~mcfrank/), [Virginia Marchman](https://profiles.stanford.edu/virginia-marchman), [Tim O'Donnell](http://people.linguistics.mcgill.ca/~timothy.odonnell/), and [Roger Levy](http://www.mit.edu/~rplevy/).
 
 ```{r}
-div(
-  map(components, function(section) {
-    tagList(
-      HTML(glue('<h3>
-                <i class="fa fa-{section$icon} fa-color-{section$color}"></i>
-                {section$title}</h3>')),
-      fluidRow(
-        map(section$items, function(item) {
-          column(width = item$width,
-                 div(class = glue("bs-callout bs-callout-{section$color}"),
-                     div(class = "right",
-                         map(item$links, function(link) {
-                           a(href = link$url, icon(link$icon))
-                         })),
-                     h4(item$name),
-                     if ("html" %in% names(item) && item$html) HTML(item$text) else p(item$text),
-                     if (length(item$with)) {
-                       div(class = "with", "with ",
-                           HTML(paste(
-                             map(item$with,
-                                 ~glue('<a href="{.$url}">{.$name}</a>')
-                             ), collapse = ", "))
-                       )
-                     }
-                 )
+subpart_tags <- function(sub) {
+  # HTML(glue('<i class="fa fa-{sub$icon}"></i>{sub$text}'))
+  tagList(a(class = "subpart-icon", href = sub$url, icon(sub$icon)),
+          a(href = sub$url, div(class = "subpart-text", HTML(sub$text))))
+}
+
+item_tags <- function(it, sec) {
+  # column(
+    # width = it$width,
+    div(class = glue("bs-callout bs-callout-{sec$color}"),
+        div(class = "right",
+            map(it$links, \(link) a(href = link$url, icon(link$icon)))),
+        a(href = it$url, h4(it$name)),
+        if (length(it$with)) {
+          div(class = "with", "with ",
+              HTML(paste(
+                map(it$with, function(w) {
+                  if (length(w$url) > 0) glue('<a href="{w$url}">{w$name}</a>') else w$name
+                }),
+                collapse = ", "
+              ))
           )
-        })
-      )
+        },
+        # if ("html" %in% names(it) && it$html) HTML(it$text) else p(it$text)
+        p(it$description),
+        div(class = "subparts", map(it$subparts, subpart_tags))
     )
-  })
-)
+  # )
+}
+
+section_tags <- function(sec) {
+  n_items <- length(sec$items)
+  sec_items <- map(sec$items, \(i) item_tags(i, sec))
+  tagList(
+    HTML(glue(
+      '<h3><i class="fa fa-{sec$icon} fa-color-{sec$color}"></i>{sec$title}</h3>'
+    )),
+    fluidRow(column(width = 6, sec_items[1:floor(n_items / 2)]),
+             column(width = 6, sec_items[(floor(n_items / 2) + 1):n_items]))
+    # fluidRow(column(width = 6, map(sec$items, \(i) item_tags(i, sec))))
+  )
+}
+
+div(map(components, section_tags))
 ```
 
 </div>

@@ -1,0 +1,207 @@
+- title: Research
+  icon: flask
+  color: cyan
+  items:
+    - name: "Variability and Consistency in Early Language Learning: The Wordbank Project"
+      text: Book of large-scale cross-linguistic analyses using data from the Wordbank project
+      width: 6
+      links:
+        - url: https://langcog.github.io/wordbank-book/
+          icon: book
+        - url: https://github.com/langcog/wordbank-book
+          icon: github
+      with:
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+        - name: Virginia Marchman
+          url: https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php
+        - name: Daniel Yurovsky
+          url: https://www.thoughtfill.com
+    - name: Consistency and variability in children's word learning across languages
+      text: Paper on predicting words' acquisition trajectories from their properties
+      width: 6
+      links:
+        - url: https://www.mitpressjournals.org/doi/full/10.1162/opmi_a_00026
+          icon: file
+        - url: https://github.com/mikabr/aoa-prediction
+          icon: github
+      with:
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+        - name: Virginia Marchman
+          url: https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php
+        - name: Daniel Yurovsky
+          url: https://www.thoughtfill.com
+
+- title: Tools
+  icon: wrench
+  color: green
+  items:
+    - name: Wordbank + wordbankr
+      text: Database of vocabulary development data and R package for accessing it
+      width: 6
+      links:
+        - url: http://wordbank.stanford.edu
+          icon: globe
+        - url: https://github.com/langcog/wordbank
+          icon: github
+        - url: https://github.com/langcog/wordbankr
+          icon: github
+      with:
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+        - name: Daniel Kellier
+          url: https://www.linkedin.com/in/danielle-kellier-419299165
+        - name: Virginia Marchman
+          url: https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php
+        - name: Daniel Yurovsky
+          url: https://www.thoughtfill.com
+    - name: childes-db + childesr
+      text: Database of child language transcripts and R package for accessing it
+      width: 6
+      links:
+        - url: http://childes-db.stanford.edu
+          icon: globe
+        - url: https://github.com/langcog/childesr
+          icon: github
+      with:
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+        - name: Kyle MacDonald
+          url: https://kemacdonald.com
+        - name: Stephan Meylan
+          url: https://stephanmeylan.com
+        - name: Alessandro Sanchez
+          url: https://github.com/amsan7
+        - name: Daniel Yurovsky
+          url: https://www.thoughtfill.com
+    - name: peekbank + peebankr
+      text: Database of developmental eyetracking datasets and R package for accessing it
+      width: 6
+      links:
+        - url: https://peekbank.stanford.edu
+          icon: globe
+        - url: https://github.com/langcog/peekbank
+          icon: github
+        - url: https://github.com/langcog/peekbankr
+          icon: github
+      with:
+        - name: Benjamin deMayo
+          url: https://profiles.stanford.edu/benjamin-demayo
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+        - name: Kyle MacDonald
+          url: https://kemacdonald.com
+        - name: Stephan Meylan
+          url: https://stephanmeylan.com
+        - name: Rose Schneider
+          url: https://rosemschneider.github.io
+        - name: Linger Xu
+          url: http://homes.sice.indiana.edu/txu/
+        - name: Martin Zettersten
+          url: https://martinzettersten.weebly.com
+    - name: Wordful
+      text: Smartphone app for tracking early vocabulary growth
+      width: 6
+      links:
+        - url: http://wordfulapp.com
+          icon: globe
+      with:
+        - name: Benjamin deMayo
+          url: https://profiles.stanford.edu/benjamin-demayo
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+        - name: George Kachergis
+          url: http://www.kachergis.com
+        - name: Stephan Meylan
+          url: https://stephanmeylan.com
+        - name: Ryan Warner
+          url: https://github.com/RyanWarner
+    - name: rwebppl
+      text: R interface to the WebPPL probabilistic programming language
+      width: 5
+      links:
+        - url: https://github.com/mhtess/rwebppl/wiki/Introduction
+          icon: info-circle
+        - url: https://github.com/mhtess/rwebppl
+          icon: github
+      with:
+        - name: Robert Hawkins
+          url: https://rxdhawkins.com
+        - name: Michael Henry Tessler
+          url: http://www.mit.edu/~tessler/
+    - name: tidyboot
+      text: R package for doing tidyverse-compatible bootstrapping
+      width: 5
+      links:
+        - url: https://github.com/langcog/tidyboot
+          icon: github
+      with:
+        - name: Daniel Yurovsky
+          url: https://www.thoughtfill.com
+    - name: ggpirate
+      text: R package for making plots of data with categorical independent variables
+      width: 5
+      links:
+        - url: https://github.com/mikabr/ggpirate
+          icon: github
+    - name: jglmm
+      text: R package for fitting generalized linear mixed effects models in Julia
+      width: 5
+      links:
+        - url: https://github.com/mikabr/jglmm
+          icon: github
+
+- title: Teaching
+  icon: graduation-cap
+  color: orange
+  items:
+    - name: Laboratory in Psycholinguistics
+      text: Course in spring 2018 & spring 2019
+      width: 5
+      links:
+        - url: https://web.mit.edu/psycholinglab/public/
+          icon: globe
+      with:
+        - name: Ted Gibson
+          url: https://bcs.mit.edu/users/egibsonmitedu
+    - name: Large-scale data tools in language acquisition
+      text: Workshop at LSA Summer Institute 2019
+      width: 7
+      links:
+        - url: https://mikabr.github.io/acq-tools/acq-tools-lsa.html
+          icon: globe
+        - url: https://github.com/mikabr/acq-tools
+          icon: github
+      with:
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+
+- title: Miscellaneous
+  icon: ellipsis-h
+  color: violet
+  items:
+    - name: Interactive visualizations
+      width: 5
+      html: true
+      text: |
+        Cambridge election results 2019
+        <div class="right">
+          <a href="https://mikabr.shinyapps.io/cambridge2019/">
+            <i class="fa fa-external-link"></i>
+          </a>
+        </div>
+        <br/>
+        Trends in name genders
+        <div class="right">
+          <a href="https://mikabr.shinyapps.io/names/">
+            <i class="fa fa-external-link"></i>
+          </a>
+        </div>
+        <br/>
+        Multilingual translation
+        <div class="right">
+          <a href="https://mikabr.shinyapps.io/linger/">
+            <i class="fa fa-external-link"></i>
+          </a>
+        </div>

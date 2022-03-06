@@ -38,6 +38,10 @@ a:visited {
   color: var(--blue);
 }
 
+a:hover, a:focus {
+  text-decoration: none;
+}
+
 #pronouns {
   color: var(--cyan);
 }
@@ -76,14 +80,20 @@ a:visited {
   display: none;
 }
 
-h4 + p {
-  margin-bottom: 3px;
+.bs-callout + .bs-callout {
+  margin-top: 0px;
+}
+
+.bs-callout h4 {
+  font-size: 140%;
+  margin-bottom: 2px;
 }
 
 .with {
   color: var(--base0);
   font-size: 80%;
   line-height: normal;
+  margin-bottom: 6px;
 }
 
 .with > a:link {
@@ -94,6 +104,32 @@ h4 + p {
   color: var(--base0);
 }
 
+h3 {
+  margin-bottom: 0px;
+}
+
 h3 > i {
-  margin-right: 2px;
+  margin-right: 6px;
+}
+
+.subparts {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 0.2em;
+  row-gap: 0.5em;
+  line-height: 1.2;
+}
+
+.subpart-icon {
+  justify-self: center;
+}
+
+.subpart-text {
+  color: #333333;
+  font-size: 90%;
+}
+
+.col-sm-4, .col-sm-5, .col-sm-6 {
+  padding-left: 10px;
+  padding-right: 10px;
 }
