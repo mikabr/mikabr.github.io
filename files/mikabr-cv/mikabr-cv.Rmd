@@ -4,12 +4,12 @@ output:
     latex_engine: lualatex
     template: svm-latex-cv.tex
     keep_tex: true
-geometry: margin=0.8in
+geometry: margin=0.75in
 
 title: "CV"
 author: Mika Braginsky
 
-email: mikabr@mit.edu
+email: mikabr@stanford.edu
 github: mikabr
 web: mikabr.io
 
@@ -19,7 +19,9 @@ mainfontoptions:
   - ItalicFont=SourceSerifProItalic
 sansfont: SourceSansPro
 monofont: SourceCodePro
+monofontoptions: Scale=0.9
 fontsize: 11pt
+
 fontawesome: true
 graphics: true
 linkcolor: #268bd2
@@ -30,40 +32,56 @@ urlcolor: #268bd2
 # Education
 
 | **Massachusetts Institute of Technology**
-|     Ph.D., Brain and Cognitive Sciences (2022)
-|     Advisor: Edward Gibson
-|     Committee: Edward Gibson, Michael Frank, Timothy O'Donnell, Joshua Tenenbaum, Laura Schulz
-|     Thesis: *Language learning at scale: Data-driven and model-motivated analyses of lexical and morphological development*
+|    Ph.D., Brain and Cognitive Sciences (2022)
+|    Advisor: Edward Gibson
+|    Committee: Edward Gibson, Michael Frank, Timothy O'Donnell, Joshua Tenenbaum, Laura Schulz
+|    Thesis: *Language learning at scale: Data-driven and model-motivated analyses of lexical and morphological development*
 
 | **Massachusetts Institute of Technology**
-|     B.S., Computer Science and Engineering \& Brain and Cognitive Sciences (2014)
+|    B.S., Computer Science and Engineering \& Brain and Cognitive Sciences (2014)
 
 
 # Research Experience
 
-| **Graduate Student Researcher** \hfill Sep 2016 -- January 2022
-|     TedLab, MIT (PI: Edward Gibson)
-|     Computational Psycholinguistics Lab, MIT (PI: Roger Levy)
+| **Postdoctoral Scholar** \hfill Mar 2022 -- Present
+|    Quantitative Sciences Unit, Stanford University
+|    PI: Maya Mathur
+
+| **Graduate Student Researcher** \hfill Sep 2016 -- Jan 2022
+|    TedLab, MIT (PI: Edward Gibson)
+|    Computational Psycholinguistics Lab, MIT (PI: Roger Levy)
 
 | **Research Assistant** \hfill Sep 2014 -- June 2016
-|     Language and Cognition Lab, Stanford University
-|     PI: Michael Frank
+|    Language and Cognition Lab, Stanford University
+|    PI: Michael Frank
 
 | **Undergraduate Researcher** \hfill Sep 2013 -- Aug 2014
-|     Computational Cognitive Science Group, MIT
-|     PI: Joshua Tenenbaum
+|    Computational Cognitive Science Group, MIT
+|    PI: Joshua Tenenbaum
 
 | **Research and Development Intern** \hfill June 2013 -- Aug 2013
-|     Research and Development Team, Basis Technology
+|    Research and Development Team, Basis Technology
 
 
 # Awards and Fellowships
 
-- Walle Nauta Award for Continuing Dedication to Teaching by a Graduate Student (April 2020 & June 2021)
-- Angus MacDonald Award for Excellence in Undergraduate Teaching (February 2019)
-- Henry E. Singleton Fellowship, MIT (2017-2018)
-- Society for Language Development Student Award (October 2016)
-- National Science Foundation Graduate Research Fellowship (2016-2021)
+- Walle Nauta Award for Continuing Dedication to Teaching by a Graduate Student (2020, 2021, 2022)
+- Angus MacDonald Award for Excellence in Undergraduate Teaching (2019)
+- Henry E. Singleton Fellowship, MIT (2017--2018)
+- Society for Language Development Student Award (2016)
+- **National Science Foundation Graduate Research Fellowship** (2016--2021)
+
+
+# Books
+
+- Frank, M. C., **Braginsky, M.**, Cachia, J., Coles, N., Hardwicke, T., Hawkins, R., Mathur, M., and Williams, R. (in prep). Experimentology: An Open Science Approach to Experimental Psychology Methods. MIT Press. `langcog.github.io/experimentology`
+
+- Frank, M. C., **Braginsky, M.**, Marchman, V. A., and Yurovsky, D. (2021). Variability and Consistency in Early Language Learning: The Wordbank Project. MIT Press. `wordbank-book.stanford.edu`
+
+
+# Book Chapters
+
+- Mahowald, K., Dautriche, I., **Braginsky, M.**, and Gibson, E. (2022). Efficient communication and the organization of the lexicon. In *Oxford Handbook of the Mental Lexicon*. Oxford University Press.
 
 
 # Journal Articles
@@ -79,16 +97,6 @@ urlcolor: #268bd2
 - Bergmann, C., Tsuji, S., Piccinini, P., Lewis, M., **Braginsky, M.**, Frank, M. C., and Cristia, A. (2018). Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research. Child Development.
 
 - Frank, M. C., **Braginsky, M.**, Yurovsky, D., and Marchman, V. A. (2016). Wordbank: An open repository for developmental vocabulary data. Journal of Child Language.
-
-
-# Books
-
-- Frank, M. C., **Braginsky, M.**, Marchman, V. A., and Yurovsky, D. (2021). Variability and Consistency in Early Language Learning: The Wordbank Project. MIT Press.
-
-
-# Book Chapters
-
-- Mahowald, K., Dautriche, I., **Braginsky, M.**, and Gibson, E. (2022). Efficient communication and the organization of the lexicon. In *Oxford Handbook of the Mental Lexicon*. Oxford University Press.
 
 
 # Peer-Reviewed Conference Proceedings
@@ -166,7 +174,8 @@ urlcolor: #268bd2
 
 | **Workshop Instructor** \hfill July 2019
 |     Large-scale data tools in child language acquisition
-|     LSA Linguistic Institute 2019
+|     Linguistic Society of America 2019 Linguistic Institute
+|     Co-instructor: Michael Frank
 
 | **Advanced Learning Assistant** \hfill Fall 2011
 |     Introduction to Electrical Engineering and Computer Science I
@@ -180,37 +189,39 @@ urlcolor: #268bd2
 
 # Software
 
-|  __`Wordbank`__ (co-creator and former primary maintainer)
-|     `wordbank.stanford.edu`
-|     A database of vocabulary development data from the CDI and interactive tools for its access
+| __`phacking`__ (co-creator and primary maintainer) \hfill `github.com/mikabr/phacking`
+|    R package for correcting meta-analysis for phacking
 
-| __`wordbankr`__ (co-creator and primary maintainer)
-|     `github.com/langcog/wordbankr`
-|     An R package for accessing Wordbank
+| __Wordbank__ (co-creator and maintainer) \hfill `wordbank.stanford.edu`
+|    Open repository of parent-report data on children's early language learning <!--\hfill `github.com/langcog/wordbank`-->
+|    Interactive visualizations and tools <!--\hfill `github.com/langcog/wordbank-shiny`-->
+|    R package for data access and manipulation (`wordbankr`) <!--\hfill `github.com/langcog/wordbankr`-->
 
-| __`childesr`__ (co-creator and primary maintainer)
-|     `github.com/langcog/childesr`
-|     An R package for accessing childes-db, a database of child language corpora from CHILDES
+| __childes-db__ (co-creator and maintainer) \hfill `childes-db.stanford.edu`
+|    Flexible and reproducible interface to CHILDES, a corpus of child language transcripts <!--\hfill `github.com/langcog/childes-db`-->
+|    R package for data access (`childesr`) <!--\hfill `github.com/langcog/childesr`-->
 
-| __`rwebppl`__ (co-creator and maintainer)
-|     `github.com/mhtess/rwebppl`
-|     An R interface to the WebPPL probabilistic programming language
+| __Peekbank__ (co-creator and maintainer) \hfill `peekbank.stanford.edu`
+|    Flexible and reproducible interface to developmental eyetracking datasets <!--\hfill `github.com/langcog/peekbank`-->
+|    R package for data access (`peekbankr`) <!--\hfill `github.com/langcog/peekbankr`-->
 
-| __`MetaLab`__ (co-creator and former primary maintainer)
-|     `metalab.stanford.edu`  
-|     Interactive tools for community-augmented meta-analysis in cognitive development research
+| __Wordful__ (co-creator and former maintainer) \hfill `wordfulapp.com`
+|    Smartphone app for tracking early vocabulary growth
 
-| __`ggpirate`__ (creator and primary maintainer)
-|     `github.com/mikabr/ggpirate`  
-|     An R package for making informative plots of data with categorical independent variables
+| __MetaLab__ (co-creator and former maintainer) \hfill `metalab.stanford.edu`
+|    Interactive tools for community-augmented meta-analysis in cognitive development research
 
-| __`tidyboot`__ (co-creator and maintainer)
-|     `github.com/langcog/tidyboot`  
-|     An R package for doing tidyverse-compatible bootstrapping
+| __`rwebppl`__ (co-creator and former maintainer) \hfill `github.com/mhtess/rwebppl`
+|    R interface to the WebPPL probabilistic programming language
 
-| __`jglmm`__ (creator and maintainer)
-|     `github.com/mikabr/jglmm`  
-|     An R package for fitting generalized linear fixed effects models in Julia
+| __`jglmm`__ (creator and maintainer) \hfill `github.com/mikabr/jglmm`
+|    R package for fitting generalized linear fixed effects models in Julia
+
+| __`ggpirate`__ (creator and maintainer) \hfill `github.com/mikabr/ggpirate`
+|    R package for making plots of data with categorical independent variables
+
+| __`tidyboot`__ (co-creator and maintainer) \hfill `github.com/langcog/tidyboot`
+|    R package for doing tidyverse-compatible bootstrapping
 
 \centering
 \vspace{2em}
