@@ -86,7 +86,11 @@ urlcolor: #268bd2
 
 # Journal Articles
 
-- Zettersten, M., Yurovsky, D., Xu, T., Uner, S., Tsui, A., ... **Braginsky, M.**, ... Frank, M. C. (under review). Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition.
+- Poliak, M., Ryskin, R., **Braginsky, M.**, Gibson, E. (under review). It's not what you say but how you say it: Evidence from Russian shows robust effects of the structural prior on noisy channel inferences. Cognition.
+
+- Ambridge,	B.,	Leonard, B., Anastasopoulos, A., Anderson, A., Arora, A., Bonami, O., **Braginsky, M.**, et al (under revision). A pipeline for generating plausible wug words in many languages. Transactions of the Association for Computational Linguistics.
+
+- Zettersten, M., Yurovsky, D., Xu, T., Uner, S., Tsui, A., ... **Braginsky, M.**, ... Frank, M. C. (in press). Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition.
 
 - DeMayo, B., Kellier, D., **Braginsky, M.**, Bergmann, C., Hendriks, C., Rowland, C. F., Frank, M. C., & Marchman, V. (2021). Web-CDI: A system for online administration of the MacArthur-Bates Communicative Development Inventories. Language Development Research.
 
@@ -100,6 +104,8 @@ urlcolor: #268bd2
 
 
 # Peer-Reviewed Conference Proceedings
+
+- Ambridge,	B.,	Anastasopoulos,	A.,	Anderson,	N.,	Arora,	A.,	Bonami,	O.,	**Braginsky,	M.**, et al (2021). A pipeline for generating plausible wug words in many languages. *Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and	Morphology*.
 
 - Zettersten, M., Bergey, C., Bhatt, N., Boyce, V., **Braginsky, M.**, Carstensen, A., ... & Frank, M. C. (2021). Peekbank: Exploring children's word recognition through an open, large-scale repository for developmental eye-tracking data. In *Proceedings of the 43rd Annual Meeting of the Cognitive Science Society*.
 
