@@ -103,8 +103,8 @@ section_tags <- function(sec) {
     HTML(glue(
       '<h3><i class="fa fa-{sec$icon} fa-color-{sec$color}"></i>{sec$title}</h3>'
     )),
-    fluidRow(column(width = 6, sec_items[1:floor(n_items / 2)]),
-             column(width = 6, sec_items[(floor(n_items / 2) + 1):n_items]))
+    fluidRow(column(width = 6, sec_items[1:ceiling(n_items / 2)]),
+             column(width = 6, sec_items[(ceiling(n_items / 2) + 1):n_items]))
     # fluidRow(column(width = 6, map(sec$items, \(i) item_tags(i, sec))))
   )
 }

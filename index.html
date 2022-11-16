@@ -13,8 +13,8 @@
 
 <title>Mika Braginsky</title>
 
-<script src="index_files/header-attrs-2.9/header-attrs.js"></script>
-<script src="index_files/jquery-1.11.3/jquery.min.js"></script>
+<script src="index_files/header-attrs-2.14/header-attrs.js"></script>
+<script src="index_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="index_files/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="index_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -32,8 +32,8 @@
 <script src="index_files/navigation-1.1/tabsets.js"></script>
 <link href="index_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="index_files/highlightjs-9.12.0/highlight.js"></script>
-<link href="index_files/font-awesome-5.13.0/css/all.min.css" rel="stylesheet" />
-<link href="index_files/font-awesome-5.13.0/css/v4-shims.min.css" rel="stylesheet" />
+<link href="index_files/font-awesome-6.1.1/css/all.min.css" rel="stylesheet" />
+<link href="index_files/font-awesome-6.1.1/css/v4-shims.min.css" rel="stylesheet" />
 <base target="_blank">
 <link rel="icon" type="image/png" href="files/favicon.ico">
 
@@ -72,6 +72,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="css/solarized.css" type="text/css" />
 <link rel="stylesheet" href="css/bs-callout.css" type="text/css" />
 <link rel="stylesheet" href="css/index.css" type="text/css" />
@@ -98,6 +99,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -230,11 +234,133 @@ Papers
 </div>
 </div>
 </header>
-<p>I’m a postdoctoral scholar at the <a href="https://med.stanford.edu/qsu.html">Quantitative Sciences Unit</a> at Stanford University. I work with <a href="https://www.mayamathur.com">Maya Mathur</a> on tools for <strong>reducing bias in meta-analysis</strong> and on studies of interventions for <strong>reducing meat consumption</strong>.</p>
-<p>Before that I got my PhD in <a href="http://bcs.mit.edu">Brain and Cognitive Sciences</a> at MIT, where I studied <strong>language acquisition</strong>. I was advised by <a href="http://tedlab.mit.edu/people.html">Ted Gibson</a> and also collaborated extensively with <a href="http://web.stanford.edu/~mcfrank/">Mike Frank</a>, <a href="https://profiles.stanford.edu/virginia-marchman">Virginia Marchman</a>, <a href="http://people.linguistics.mcgill.ca/~timothy.odonnell/">Tim O’Donnell</a>, and <a href="http://www.mit.edu/~rplevy/">Roger Levy</a>.</p>
+<p>I’m a postdoctoral scholar at the <a
+href="https://med.stanford.edu/qsu.html">Quantitative Sciences Unit</a>
+at Stanford University. I work with <a
+href="https://www.mayamathur.com">Maya Mathur</a> on tools for
+<strong>reducing bias in meta-analysis</strong> and on studies of
+interventions for <strong>reducing meat consumption</strong>.</p>
+<p>Before that I got my PhD in <a href="http://bcs.mit.edu">Brain and
+Cognitive Sciences</a> at MIT, where I studied <strong>language
+acquisition</strong>. I was advised by <a
+href="http://tedlab.mit.edu/people.html">Ted Gibson</a> and also
+collaborated extensively with <a
+href="http://web.stanford.edu/~mcfrank/">Mike Frank</a>, <a
+href="https://profiles.stanford.edu/virginia-marchman">Virginia
+Marchman</a>, <a
+href="http://people.linguistics.mcgill.ca/~timothy.odonnell/">Tim
+O’Donnell</a>, and <a href="http://www.mit.edu/~rplevy/">Roger
+Levy</a>.</p>
 <div>
 <h3><i class="fa fa-laptop-code fa-color-cyan"></i>Projects</h3>
 <div class="row">
+<div class="col-sm-6">
+<div class="bs-callout bs-callout-cyan">
+<div class="right"></div>
+<a href="http://metabias.io/">
+<h4>metabias</h4>
+</a>
+<div class="with">
+with 
+<a href="https://www.mayamathur.com/">Maya Mathur</a>
+</div>
+<p>Tools for conducting corrections and sensitivity analyses for biases in meta-analysis</p>
+<div class="subparts">
+<a class="subpart-icon" href="https://github.com/mikabr/multibiasmeta">
+<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+</a>
+<a href="https://github.com/mikabr/multibiasmeta">
+<div class="subpart-text">R package for multiple biases</div>
+</a>
+<a class="subpart-icon" href="https://github.com/mikabr/phacking">
+<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+</a>
+<a href="https://github.com/mikabr/phacking">
+<div class="subpart-text">R package for p-hacking</div>
+</a>
+<a class="subpart-icon" href="https://github.com/mayamathur/publicationbias">
+<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+</a>
+<a href="https://github.com/mayamathur/publicationbias">
+<div class="subpart-text">R package for publication bias</div>
+</a>
+<a class="subpart-icon" href="https://github.com/mikabr/pubbias-app">
+<i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
+</a>
+<a href="https://github.com/mikabr/pubbias-app">
+<div class="subpart-text">Shiny app for publication bias</div>
+</a>
+</div>
+</div>
+<div class="bs-callout bs-callout-cyan">
+<div class="right"></div>
+<a href="https://childes-db.stanford.edu/">
+<h4>childes-db</h4>
+</a>
+<div class="with">
+with 
+<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, <a href="https://stephanmeylan.com/">Stephan Meylan</a>, <a href="https://jmankewitz.com/">Jess Mankewitz</a>, <a href="https://sathvikn.github.io/">Sathvik Nair</a>, <a href="https://langcog.github.io/childes-db-website/about.html">and others</a>
+</div>
+<p>Flexible and reproducible interface to CHILDES, a corpus of child language transcripts</p>
+<div class="subparts">
+<a class="subpart-icon" href="https://langcog.github.io/childes-db-website/analyses.html">
+<i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
+</a>
+<a href="https://langcog.github.io/childes-db-website/analyses.html">
+<div class="subpart-text">Interactive visualizations</div>
+</a>
+<a class="subpart-icon" href="https://github.com/langcog/childesr">
+<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+</a>
+<a href="https://github.com/langcog/childesr">
+<div class="subpart-text">R package for data access</div>
+</a>
+<a class="subpart-icon" href="https://github.com/langcog/childespy">
+<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+</a>
+<a href="https://github.com/langcog/childespy">
+<div class="subpart-text">Python package for data access</div>
+</a>
+<a class="subpart-icon" href="files/papers/childesdb.pdf">
+<i class="fa fa-file" role="presentation" aria-label="file icon"></i>
+</a>
+<a href="files/papers/childesdb.pdf">
+<div class="subpart-text"><em>childes-db: A flexible and reproducible interface to the Child Language Data Exchange System</em> (2019)</div>
+</a>
+</div>
+</div>
+<div class="bs-callout bs-callout-cyan">
+<div class="right"></div>
+<a href="https://peekbank.stanford.edu/">
+<h4>peekbank</h4>
+</a>
+<div class="with">
+with 
+<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, <a href="https://mzettersten.github.io/">Martin Zettersten</a>, <a href="https://homes.luddy.indiana.edu/txu/">Linger Xu</a>, <a href="https://stephanmeylan.com/">Stephan Meylan</a>, <a href="http://www.kachergis.com/">George Kachergis</a>, <a href="https://langcog.github.io/peekbank-website/docs/about-us/">and others</a>
+</div>
+<p>Flexible and reproducible interface to developmental eyetracking datasets</p>
+<div class="subparts">
+<a class="subpart-icon" href="https://langcog.github.io/peekbank-website/viz">
+<i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
+</a>
+<a href="https://langcog.github.io/peekbank-website/viz">
+<div class="subpart-text">Interactive visualizations</div>
+</a>
+<a class="subpart-icon" href="https://github.com/langcog/peekbankr/">
+<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+</a>
+<a href="https://github.com/langcog/peekbankr/">
+<div class="subpart-text">R package for data access</div>
+</a>
+<a class="subpart-icon" href="https://psyarxiv.com/tgnzv/">
+<i class="fa fa-file" role="presentation" aria-label="file icon"></i>
+</a>
+<a href="https://psyarxiv.com/tgnzv/">
+<div class="subpart-text"><em>Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition</em> (under revision)</div>
+</a>
+</div>
+</div>
+</div>
 <div class="col-sm-6">
 <div class="bs-callout bs-callout-cyan">
 <div class="right"></div>
@@ -245,7 +371,7 @@ Papers
 with 
 <a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, <a href="https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php">Virginia Marchman</a>, <a href="https://www.danyurovsky.com/">Daniel Yurovsky</a>
 </div>
-<p>Wordbank is an open repository of parent-report data on children's early language learning</p>
+<p>Open repository of parent-report data on children's early language learning</p>
 <div class="subparts">
 <a class="subpart-icon" href="http://wordbank.stanford.edu/analyses">
 <i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
@@ -281,88 +407,6 @@ with
 </div>
 <div class="bs-callout bs-callout-cyan">
 <div class="right"></div>
-<a href="https://peekbank.stanford.edu/">
-<h4>peekbank</h4>
-</a>
-<div class="with">
-with 
-<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, <a href="https://mzettersten.github.io/">Martin Zettersten</a>, <a href="https://homes.luddy.indiana.edu/txu/">Linger Xu</a>, <a href="https://stephanmeylan.com/">Stephan Meylan</a>, <a href="http://www.kachergis.com/">George Kachergis</a>, <a href="https://langcog.github.io/peekbank-website/docs/about-us/">and others</a>
-</div>
-<p>peekbank is a flexible and reproducible interface to developmental eyetracking datasets</p>
-<div class="subparts">
-<a class="subpart-icon" href="https://langcog.github.io/peekbank-website/viz">
-<i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
-</a>
-<a href="https://langcog.github.io/peekbank-website/viz">
-<div class="subpart-text">Interactive visualizations</div>
-</a>
-<a class="subpart-icon" href="https://github.com/langcog/peekbankr/">
-<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
-</a>
-<a href="https://github.com/langcog/peekbankr/">
-<div class="subpart-text">R package for data access</div>
-</a>
-<a class="subpart-icon" href="https://psyarxiv.com/tgnzv/">
-<i class="fa fa-file" role="presentation" aria-label="file icon"></i>
-</a>
-<a href="https://psyarxiv.com/tgnzv/">
-<div class="subpart-text"><em>Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition</em> (under revision)</div>
-</a>
-</div>
-</div>
-<div class="bs-callout bs-callout-cyan">
-<div class="right"></div>
-<a href="http://wordfulapp.com">
-<h4>Wordful</h4>
-</a>
-<div class="with">
-with 
-<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, <a href="https://stephanmeylan.com">Stephan Meylan</a>, and others
-</div>
-<p>Wordful is a smartphone app for tracking early vocabulary growth</p>
-<div class="subparts"></div>
-</div>
-</div>
-<div class="col-sm-6">
-<div class="bs-callout bs-callout-cyan">
-<div class="right"></div>
-<a href="https://childes-db.stanford.edu/">
-<h4>childes-db</h4>
-</a>
-<div class="with">
-with 
-<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, <a href="https://stephanmeylan.com/">Stephan Meylan</a>, <a href="https://jmankewitz.com/">Jess Mankewitz</a>, <a href="https://sathvikn.github.io/">Sathvik Nair</a>, <a href="https://langcog.github.io/childes-db-website/about.html">and others</a>
-</div>
-<p>childes-db is a flexible and reproducible interface to CHILDES, a corpus of child language transcripts</p>
-<div class="subparts">
-<a class="subpart-icon" href="https://langcog.github.io/childes-db-website/analyses.html">
-<i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
-</a>
-<a href="https://langcog.github.io/childes-db-website/analyses.html">
-<div class="subpart-text">Interactive visualizations</div>
-</a>
-<a class="subpart-icon" href="https://github.com/langcog/childesr">
-<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
-</a>
-<a href="https://github.com/langcog/childesr">
-<div class="subpart-text">R package for data access</div>
-</a>
-<a class="subpart-icon" href="https://github.com/langcog/childespy">
-<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
-</a>
-<a href="https://github.com/langcog/childespy">
-<div class="subpart-text">Python package for data access</div>
-</a>
-<a class="subpart-icon" href="files/papers/childesdb.pdf">
-<i class="fa fa-file" role="presentation" aria-label="file icon"></i>
-</a>
-<a href="files/papers/childesdb.pdf">
-<div class="subpart-text"><em>childes-db: A flexible and reproducible interface to the Child Language Data Exchange System</em> (2019)</div>
-</a>
-</div>
-</div>
-<div class="bs-callout bs-callout-cyan">
-<div class="right"></div>
 <a href="https://webcdi.stanford.edu/">
 <h4>web-cdi</h4>
 </a>
@@ -370,7 +414,7 @@ with
 with 
 <a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, <a href="https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php">Virginia Marchman</a>, <a href="http://www.kachergis.com/">George Kachergis</a>, <a href="https://jmankewitz.com/">Jess Mankewitz</a>, and others
 </div>
-<p>web-cdi is a system for online administration of the MacArthur-Bates Communicative Development Inventory</p>
+<p>System for online administration of the MacArthur-Bates Communicative Development Inventory</p>
 <div class="subparts">
 <a class="subpart-icon" href="files/papers/webcdi.pdf">
 <i class="fa fa-file" role="presentation" aria-label="file icon"></i>
@@ -412,14 +456,26 @@ with
 <div class="col-sm-6">
 <div class="bs-callout bs-callout-green">
 <div class="right"></div>
-<a href="https://github.com/mhtess/rwebppl">
-<h4>rwebppl</h4>
+<a href="https://github.com/mikabr/jglmm">
+<h4>jglmm</h4>
 </a>
 <div class="with">
 with 
-<a href="https://rxdhawkins.com">Robert Hawkins</a>, <a href="http://www.mit.edu/~tessler/">Michael Henry Tessler</a>
+Alvin Tan, <a href="https://anjiecao.github.io/">Anjie Cao</a>
 </div>
-<p>R interface to the WebPPL probabilistic programming language</p>
+<p>R package for fitting generalized linear mixed effects models in Julia</p>
+<div class="subparts"></div>
+</div>
+<div class="bs-callout bs-callout-green">
+<div class="right"></div>
+<a href="https://github.com/leonkt/truncnormbayes/">
+<h4>truncnormbayes</h4>
+</a>
+<div class="with">
+with 
+<a href="https://www.mayamathur.com/">Maya Mathur</a>, Leon King Tran
+</div>
+<p>R package for estimating moments for a truncated normal distribution</p>
 <div class="subparts"></div>
 </div>
 <div class="bs-callout bs-callout-green">
@@ -446,16 +502,42 @@ with
 </div>
 <div class="bs-callout bs-callout-green">
 <div class="right"></div>
-<a href="https://github.com/mikabr/jglmm">
-<h4>jglmm</h4>
+<a href="https://github.com/mhtess/rwebppl">
+<h4>rwebppl</h4>
 </a>
-<p>R package for fitting generalized linear mixed effects models in Julia</p>
+<div class="with">
+with 
+<a href="https://rxdhawkins.com">Robert Hawkins</a>, <a href="http://www.mit.edu/~tessler/">Michael Henry Tessler</a>
+</div>
+<p>R interface to the WebPPL probabilistic programming language</p>
 <div class="subparts"></div>
 </div>
 </div>
 </div>
 <h3><i class="fa fa-chalkboard fa-color-orange"></i>Teaching</h3>
 <div class="row">
+<div class="col-sm-6">
+<div class="bs-callout bs-callout-orange">
+<div class="right"></div>
+<a href="https://experimentology.io/">
+<h4>Experimentology: An Open Science Approach to Experimental Psychology Methods</h4>
+</a>
+<div class="with">
+with 
+<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, and others
+</div>
+<p>Textbook with MIT Press (in progress)</p>
+<div class="subparts"></div>
+</div>
+<div class="bs-callout bs-callout-orange">
+<div class="right"></div>
+<a href="https://rpubs.com/mikabr/jglmm-qsu">
+<h4>Tools for fitting generalized linear mixed-effects models in Julia from R</h4>
+</a>
+<p>Research Methods Seminar at Stanford (2022)</p>
+<div class="subparts"></div>
+</div>
+</div>
 <div class="col-sm-6">
 <div class="bs-callout bs-callout-orange">
 <div class="right"></div>
@@ -466,11 +548,9 @@ with
 with 
 <a href="https://bcs.mit.edu/users/egibsonmitedu">Ted Gibson</a>
 </div>
-<p>Course in spring 2018–2021</p>
+<p>Course at MIT (spring 2018–2021)</p>
 <div class="subparts"></div>
 </div>
-</div>
-<div class="col-sm-6">
 <div class="bs-callout bs-callout-orange">
 <div class="right"></div>
 <a href="https://mikabr.github.io/acq-tools/acq-tools-lsa.html">
@@ -480,7 +560,7 @@ with
 with 
 <a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>
 </div>
-<p>Workshop at LSA Summer Institute 2019</p>
+<p>Workshop at LSA Summer Institute (2019)</p>
 <div class="subparts"></div>
 </div>
 </div>
