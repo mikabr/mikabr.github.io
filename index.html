@@ -13,7 +13,7 @@
 
 <title>Mika Braginsky</title>
 
-<script src="index_files/header-attrs-2.14/header-attrs.js"></script>
+<script src="index_files/header-attrs-2.21/header-attrs.js"></script>
 <script src="index_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="index_files/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="index_files/navigation-1.1/tabsets.js"></script>
 <link href="index_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="index_files/highlightjs-9.12.0/highlight.js"></script>
-<link href="index_files/font-awesome-6.1.1/css/all.min.css" rel="stylesheet" />
-<link href="index_files/font-awesome-6.1.1/css/v4-shims.min.css" rel="stylesheet" />
+<link href="index_files/font-awesome-6.2.1/css/all.min.css" rel="stylesheet" />
+<link href="index_files/font-awesome-6.2.1/css/v4-shims.min.css" rel="stylesheet" />
 <base target="_blank">
 <link rel="icon" type="image/png" href="files/favicon.ico">
 
@@ -122,8 +122,8 @@ pre code {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -131,16 +131,9 @@ pre code {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -219,13 +212,13 @@ GitHub
 </li>
 <li role="presentation">
 <a href="files/mikabr-cv/mikabr-cv.pdf">
-<i class="fa fa-address-card" role="presentation" aria-label="address-card icon"></i>
+<i class="far fa-address-card" role="presentation" aria-label="address-card icon"></i>
 CV
 </a>
 </li>
 <li role="presentation">
 <a href="https://scholar.google.com/citations?user=VNAMYHMAAAAJ">
-<i class="fa fa-folder-open" role="presentation" aria-label="folder-open icon"></i>
+<i class="far fa-folder-open" role="presentation" aria-label="folder-open icon"></i>
 Papers
 </a>
 </li>
@@ -266,29 +259,38 @@ with
 </div>
 <p>Tools for conducting corrections and sensitivity analyses for biases in meta-analysis</p>
 <div class="subparts">
-<a class="subpart-icon" href="https://github.com/mikabr/multibiasmeta">
+<a class="subpart-icon" href="https://metabias.io/">
+<i class="fas fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
+</a>
+<a href="https://metabias.io/">
+<div class="subpart-text">Interactive apps</div>
+</a>
+<a class="subpart-icon" href="https://mathurlabstanford.github.io/multibiasmeta/articles/tutorial.html">
+<i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i>
+</a>
+<a href="https://mathurlabstanford.github.io/multibiasmeta/articles/tutorial.html">
+<div class="subpart-text">R packages tutorial</div>
+</a>
+<a class="subpart-icon" href="https://github.com/mathurlabstanford">
 <i class="fab fa-github" role="presentation" aria-label="github icon"></i>
 </a>
-<a href="https://github.com/mikabr/multibiasmeta">
-<div class="subpart-text">R package for multiple biases</div>
+<a href="https://github.com/mathurlabstanford">
+<div class="subpart-text">GitHub repositories</div>
 </a>
-<a class="subpart-icon" href="https://github.com/mikabr/phacking">
-<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+</div>
+</div>
+<div class="bs-callout bs-callout-cyan">
+<div class="right"></div>
+<a href="https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf">
+<h4>Doctoral thesis</h4>
 </a>
-<a href="https://github.com/mikabr/phacking">
-<div class="subpart-text">R package for p-hacking</div>
+<p></p>
+<div class="subparts">
+<a class="subpart-icon" href="https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf">
+<i class="fas fa-graduation-cap" role="presentation" aria-label="graduation-cap icon"></i>
 </a>
-<a class="subpart-icon" href="https://github.com/mayamathur/publicationbias">
-<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
-</a>
-<a href="https://github.com/mayamathur/publicationbias">
-<div class="subpart-text">R package for publication bias</div>
-</a>
-<a class="subpart-icon" href="https://github.com/mikabr/pubbias-app">
-<i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
-</a>
-<a href="https://github.com/mikabr/pubbias-app">
-<div class="subpart-text">Shiny app for publication bias</div>
+<a href="https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf">
+<div class="subpart-text"><em>Language learning at scale: Data‐driven and model‐motivated analyses of lexical and morphological development</em></div>
 </a>
 </div>
 </div>
@@ -304,25 +306,25 @@ with
 <p>Flexible and reproducible interface to CHILDES, a corpus of child language transcripts</p>
 <div class="subparts">
 <a class="subpart-icon" href="https://langcog.github.io/childes-db-website/analyses.html">
-<i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
+<i class="fas fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
 </a>
 <a href="https://langcog.github.io/childes-db-website/analyses.html">
 <div class="subpart-text">Interactive visualizations</div>
 </a>
 <a class="subpart-icon" href="https://github.com/langcog/childesr">
-<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+<i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i>
 </a>
 <a href="https://github.com/langcog/childesr">
 <div class="subpart-text">R package for data access</div>
 </a>
 <a class="subpart-icon" href="https://github.com/langcog/childespy">
-<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+<i class="fab fa-python" role="presentation" aria-label="python icon"></i>
 </a>
 <a href="https://github.com/langcog/childespy">
 <div class="subpart-text">Python package for data access</div>
 </a>
 <a class="subpart-icon" href="files/papers/childesdb.pdf">
-<i class="fa fa-file" role="presentation" aria-label="file icon"></i>
+<i class="far fa-file" role="presentation" aria-label="file icon"></i>
 </a>
 <a href="files/papers/childesdb.pdf">
 <div class="subpart-text"><em>childes-db: A flexible and reproducible interface to the Child Language Data Exchange System</em> (2019)</div>
@@ -338,30 +340,55 @@ with
 with 
 <a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, <a href="https://mzettersten.github.io/">Martin Zettersten</a>, <a href="https://homes.luddy.indiana.edu/txu/">Linger Xu</a>, <a href="https://stephanmeylan.com/">Stephan Meylan</a>, <a href="http://www.kachergis.com/">George Kachergis</a>, <a href="https://langcog.github.io/peekbank-website/docs/about-us/">and others</a>
 </div>
-<p>Flexible and reproducible interface to developmental eyetracking datasets</p>
+<p>Repository of developmental eyetracking datasets</p>
 <div class="subparts">
 <a class="subpart-icon" href="https://langcog.github.io/peekbank-website/viz">
-<i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
+<i class="fas fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
 </a>
 <a href="https://langcog.github.io/peekbank-website/viz">
 <div class="subpart-text">Interactive visualizations</div>
 </a>
 <a class="subpart-icon" href="https://github.com/langcog/peekbankr/">
-<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+<i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i>
 </a>
 <a href="https://github.com/langcog/peekbankr/">
 <div class="subpart-text">R package for data access</div>
 </a>
-<a class="subpart-icon" href="https://psyarxiv.com/tgnzv/">
-<i class="fa fa-file" role="presentation" aria-label="file icon"></i>
+<a class="subpart-icon" href="files/papers/peekbank.pdf">
+<i class="far fa-file" role="presentation" aria-label="file icon"></i>
 </a>
-<a href="https://psyarxiv.com/tgnzv/">
-<div class="subpart-text"><em>Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition</em> (under revision)</div>
+<a href="files/papers/peekbank.pdf">
+<div class="subpart-text">Paper: <em>Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition</em> (2022)</div>
 </a>
 </div>
 </div>
 </div>
 <div class="col-sm-6">
+<div class="bs-callout bs-callout-cyan">
+<div class="right"></div>
+<a href="https://experimentology.io/">
+<h4>Experimentology</h4>
+</a>
+<div class="with">
+with 
+<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, and others
+</div>
+<p>In-progress textbook about experimental psychology methods and open science</p>
+<div class="subparts">
+<a class="subpart-icon" href="https://experimentology.io/">
+<i class="fas fa-book" role="presentation" aria-label="book icon"></i>
+</a>
+<a href="https://experimentology.io/">
+<div class="subpart-text">Online book</div>
+</a>
+<a class="subpart-icon" href="langcog.shinyapps.io/tidyverse/">
+<i class="fas fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
+</a>
+<a href="langcog.shinyapps.io/tidyverse/">
+<div class="subpart-text">Interactive tidyverse tutorial</div>
+</a>
+</div>
+</div>
 <div class="bs-callout bs-callout-cyan">
 <div class="right"></div>
 <a href="http://wordbank.stanford.edu">
@@ -374,53 +401,34 @@ with
 <p>Open repository of parent-report data on children's early language learning</p>
 <div class="subparts">
 <a class="subpart-icon" href="http://wordbank.stanford.edu/analyses">
-<i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
+<i class="fas fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
 </a>
 <a href="http://wordbank.stanford.edu/analyses">
 <div class="subpart-text">Interactive visualizations and tools</div>
 </a>
 <a class="subpart-icon" href="https://github.com/langcog/wordbankr">
-<i class="fab fa-github" role="presentation" aria-label="github icon"></i>
+<i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i>
 </a>
 <a href="https://github.com/langcog/wordbankr">
 <div class="subpart-text">R package for data access and manipulation</div>
 </a>
 <a class="subpart-icon" href="https://langcog.github.io/wordbank-book/">
-<i class="fa fa-book" role="presentation" aria-label="book icon"></i>
+<i class="fas fa-book" role="presentation" aria-label="book icon"></i>
 </a>
 <a href="https://langcog.github.io/wordbank-book/">
-<div class="subpart-text"><em>Variability and Consistency in Early Language Learning: The Wordbank Project</em> (2021)</div>
+<div class="subpart-text">Book: <em>Variability and Consistency in Early Language Learning: The Wordbank Project</em> (2021)</div>
 </a>
 <a class="subpart-icon" href="files/papers/aoapred.pdf">
-<i class="fa fa-file" role="presentation" aria-label="file icon"></i>
+<i class="far fa-file" role="presentation" aria-label="file icon"></i>
 </a>
 <a href="files/papers/aoapred.pdf">
-<div class="subpart-text"><em>Consistency and variability in children’s word learning across languages</em> (2019)</div>
+<div class="subpart-text">Paper: <em>Consistency and variability in children’s word learning across languages</em> (2019)</div>
 </a>
 <a class="subpart-icon" href="files/papers/wordbank.pdf">
-<i class="fa fa-file" role="presentation" aria-label="file icon"></i>
+<i class="far fa-file" role="presentation" aria-label="file icon"></i>
 </a>
 <a href="files/papers/wordbank.pdf">
-<div class="subpart-text"><em>Wordbank: An open repository for developmental vocabulary data</em> (2017)</div>
-</a>
-</div>
-</div>
-<div class="bs-callout bs-callout-cyan">
-<div class="right"></div>
-<a href="https://webcdi.stanford.edu/">
-<h4>web-cdi</h4>
-</a>
-<div class="with">
-with 
-<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, <a href="https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php">Virginia Marchman</a>, <a href="http://www.kachergis.com/">George Kachergis</a>, <a href="https://jmankewitz.com/">Jess Mankewitz</a>, and others
-</div>
-<p>System for online administration of the MacArthur-Bates Communicative Development Inventory</p>
-<div class="subparts">
-<a class="subpart-icon" href="files/papers/webcdi.pdf">
-<i class="fa fa-file" role="presentation" aria-label="file icon"></i>
-</a>
-<a href="files/papers/webcdi.pdf">
-<div class="subpart-text"><em>Web-CDI: A system for online administration of the MacArthur-Bates Communicative Development Inventories</em> (2021)</div>
+<div class="subpart-text">Paper: <em>Wordbank: An open repository for developmental vocabulary data</em> (2017)</div>
 </a>
 </div>
 </div>
@@ -436,18 +444,73 @@ with
 <p>Interactive, community-augmented meta-analysis tools for cognitive development research</p>
 <div class="subparts">
 <a class="subpart-icon" href="https://langcog.github.io/metalab/explore/apps/">
-<i class="fa fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
+<i class="fas fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
 </a>
 <a href="https://langcog.github.io/metalab/explore/apps/">
 <div class="subpart-text">Interactive tools</div>
 </a>
-<a class="subpart-icon" href="https://osf.io/uhv3d/">
-<i class="fa fa-file" role="presentation" aria-label="file icon"></i>
+<a class="subpart-icon" href="files/papers/metalab.pdf">
+<i class="far fa-file" role="presentation" aria-label="file icon"></i>
 </a>
-<a href="https://osf.io/uhv3d/">
-<div class="subpart-text"><em>Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research</em> (2018)</div>
+<a href="files/papers/metalab.pdf">
+<div class="subpart-text">Paper: <em>Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research</em> (2018)</div>
 </a>
 </div>
+</div>
+</div>
+</div>
+<h3><i class="fa fa-chalkboard fa-color-orange"></i>Teaching</h3>
+<div class="row">
+<div class="col-sm-6">
+<div class="bs-callout bs-callout-orange">
+<div class="right"></div>
+<a href="https://www.youtube.com/watch?v=O6RSRLDOmmc">
+<h4>Tools for accounting for within-study and across-study biases in meta-analysis</h4>
+</a>
+<p>Tutorial at ESMARConf2023 (March 2023)</p>
+<div class="subparts"></div>
+</div>
+<div class="bs-callout bs-callout-orange">
+<div class="right"></div>
+<a href="files/r_package_development.pdf">
+<h4>R package development</h4>
+</a>
+<p>Workshop at Stanford Libraries (February 2023)</p>
+<div class="subparts"></div>
+</div>
+<div class="bs-callout bs-callout-orange">
+<div class="right"></div>
+<a href="https://rpubs.com/mikabr/jglmm-qsu">
+<h4>Tools for fitting generalized linear mixed-effects models in Julia from R</h4>
+</a>
+<p>Research Methods Seminar at Stanford (October 2022)</p>
+<div class="subparts"></div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="bs-callout bs-callout-orange">
+<div class="right"></div>
+<a href="https://web.mit.edu/psycholinglab/public/">
+<h4>Laboratory in Psycholinguistics</h4>
+</a>
+<div class="with">
+with 
+<a href="https://bcs.mit.edu/users/egibsonmitedu">Ted Gibson</a>
+</div>
+<p>Course at MIT (Spring 2018, 2019, 2020, 2021)</p>
+<div class="subparts"></div>
+</div>
+<div class="bs-callout bs-callout-orange">
+<div class="right"></div>
+<a href="https://mikabr.github.io/acq-tools/acq-tools-lsa.html">
+<h4>Large-scale data tools in language acquisition</h4>
+</a>
+<div class="with">
+with 
+<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>
+</div>
+<p>Workshop at LSA Summer Institute (July 2019)</p>
+<div class="subparts"></div>
 </div>
 </div>
 </div>
@@ -510,57 +573,6 @@ with
 <a href="https://rxdhawkins.com">Robert Hawkins</a>, <a href="http://www.mit.edu/~tessler/">Michael Henry Tessler</a>
 </div>
 <p>R interface to the WebPPL probabilistic programming language</p>
-<div class="subparts"></div>
-</div>
-</div>
-</div>
-<h3><i class="fa fa-chalkboard fa-color-orange"></i>Teaching</h3>
-<div class="row">
-<div class="col-sm-6">
-<div class="bs-callout bs-callout-orange">
-<div class="right"></div>
-<a href="https://experimentology.io/">
-<h4>Experimentology: An Open Science Approach to Experimental Psychology Methods</h4>
-</a>
-<div class="with">
-with 
-<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>, and others
-</div>
-<p>Textbook with MIT Press (in progress)</p>
-<div class="subparts"></div>
-</div>
-<div class="bs-callout bs-callout-orange">
-<div class="right"></div>
-<a href="https://rpubs.com/mikabr/jglmm-qsu">
-<h4>Tools for fitting generalized linear mixed-effects models in Julia from R</h4>
-</a>
-<p>Research Methods Seminar at Stanford (2022)</p>
-<div class="subparts"></div>
-</div>
-</div>
-<div class="col-sm-6">
-<div class="bs-callout bs-callout-orange">
-<div class="right"></div>
-<a href="https://web.mit.edu/psycholinglab/public/">
-<h4>Laboratory in Psycholinguistics</h4>
-</a>
-<div class="with">
-with 
-<a href="https://bcs.mit.edu/users/egibsonmitedu">Ted Gibson</a>
-</div>
-<p>Course at MIT (spring 2018–2021)</p>
-<div class="subparts"></div>
-</div>
-<div class="bs-callout bs-callout-orange">
-<div class="right"></div>
-<a href="https://mikabr.github.io/acq-tools/acq-tools-lsa.html">
-<h4>Large-scale data tools in language acquisition</h4>
-</a>
-<div class="with">
-with 
-<a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a>
-</div>
-<p>Workshop at LSA Summer Institute (2019)</p>
 <div class="subparts"></div>
 </div>
 </div>
