@@ -233,9 +233,23 @@ $if(fontawesome)$\usepackage{fontawesome}$endif$
   \footnotesize \texttt{#1} \normalsize
 }
 
+\newcommand{\pinl}[1]{\footnotesize\texttt{#1}\normalsize}
+
 \newcommand{\hlink}[1]{
   \hfill \small \href{http://#1}{#1} \normalsize
 }
+
+\newcommand{\iconScale}{0.9}
+% \newcommand{\iconSpace}{0mm}
+
+\newcommand{\icon}[1]{
+  \scalebox{\iconScale}{#1} %\hspace{\iconSpace}
+}
+\newcommand{\ipkg}{\icon{\faCube}}
+\newcommand{\iviz}{\icon{\faLineChart}}
+\newcommand{\ibook}{\icon{\faBook}}
+\newcommand{\idb}{\icon{\faDatabase}}
+\newcommand{\iphone}{\icon{\faMobilePhone}}
 
 % \newcommand{\iconPad}{\hspace{.5mm}}
 % \newcommand{\iconSep}{\hspace{2mm}}

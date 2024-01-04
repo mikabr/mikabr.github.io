@@ -43,7 +43,11 @@ urlcolor: #268bd2
 
 # Research Experience
 
-| **Postdoctoral Scholar** \hfill Mar 2022 -- Present
+| **Software Developer** \hfill Sep 2023 -- Present
+|    Language and Cognition Lab, Stanford University
+|    PI: Michael Frank
+
+| **Postdoctoral Scholar** \hfill Mar 2022 -- Apr 2023
 |    Quantitative Sciences Unit, Stanford University
 |    PI: Maya Mathur
 
@@ -86,11 +90,13 @@ urlcolor: #268bd2
 
 # Journal Articles
 
-- Poliak, M., Ryskin, R., **Braginsky, M.**, Gibson, E. (under review). It's not what you say but how you say it: Evidence from Russian shows robust effects of the structural prior on noisy channel inferences. Journal of Experimental Psychology: Learning, Memory, and Cognition.
+- Yuen, F, Kline, M., Zettersten, M, Kosie, J., **Braginsky, M**, Frank, M. C. (in prep). ShinyValidator: A user-friendly shiny application for validating data standards.
 
-- Ambridge,	B.,	Leonard, B., Anastasopoulos, A., Anderson, A., Arora, A., Bonami, O., **Braginsky, M.**, et al (under revision). A pipeline for generating plausible wug words in many languages. Transactions of the Association for Computational Linguistics.
+- Poliak, M., Ryskin, R., **Braginsky, M.**, Gibson, E. (2023). It's not what you say but how you say it: Evidence from Russian shows robust effects of the structural prior on noisy channel inferences. Journal of Experimental Psychology: Learning, Memory, and Cognition.
 
-- Zettersten, M., Yurovsky, D., Xu, T., Uner, S., Tsui, A., ... **Braginsky, M.**, ... Frank, M. C. (2022). Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition. Behavior Research Methods.
+<!-- - Ambridge,	B.,	Leonard, B., Anastasopoulos, A., Anderson, A., Arora, A., Bonami, O., **Braginsky, M.**, et al (under revision). A pipeline for generating plausible wug words in many languages. Transactions of the Association for Computational Linguistics. -->
+
+- Zettersten, M., Yurovsky, D., Xu, T., Uner, S., Tsui, A., ... **Braginsky, M.**, ... Frank, M. C. (2023). Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition. Behavior Research Methods.
 
 - DeMayo, B., Kellier, D., **Braginsky, M.**, Bergmann, C., Hendriks, C., Rowland, C. F., Frank, M. C., & Marchman, V. (2021). Web-CDI: A system for online administration of the MacArthur-Bates Communicative Development Inventories. Language Development Research.
 
@@ -117,6 +123,8 @@ urlcolor: #268bd2
 
 
 # Conference Presentations
+
+- **Braginsky, M.**, and Mathur, M. (Mar 2023). Tools for accounting for within-study and across-study biases in meta-analysis. Talk presented at Evidence Synthesis and Meta-Analysis in R Conference 2023.
 
 - Loukatou, G., Tan, A., **Braginsky, M.**, Mankewitz, J. and Frank, M. C. (November 2022). Typological variation in predicting early word learning across languages. Poster presented by Alvin Tan at the 47th Annual Boston University Conference on Language Development.
 
@@ -201,8 +209,9 @@ urlcolor: #268bd2
 
 # Software
 
-| __`phacking`__ (co-creator and primary maintainer) \hfill `github.com/mikabr/phacking`
-|    R package for correcting meta-analysis for phacking
+| __`metabias`__ (co-creator and former maintainer) \hfill `metabias.io`
+|    R packages for bias-corrections for meta-analysis (`multibiasmeta`, `phacking`, `PublicationBias`)
+|    Interactive visualizations and tools
 
 | __Wordbank__ (co-creator and maintainer) \hfill `wordbank.stanford.edu`
 |    Open repository of parent-report data on children's early language learning <!--\hfill `github.com/langcog/wordbank`-->

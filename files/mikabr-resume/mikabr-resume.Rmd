@@ -26,116 +26,63 @@ linkcolor: #268bd2
 urlcolor: #268bd2
 ---
 
-<!-- mainfontoptions: -->
-<!--   - BoldFont=SourceSerifProBold -->
-<!--   - ItalicFont=SourceSerifProItalic -->
-
-<!-- mainfont: SourceSansPro-Regular -->
-<!-- sansfont: SourceSansPro-Regular -->
-<!-- monofont: SourceCodePro-Regular -->
-<!-- fontsize: 11pt -->
-<!-- fontawesome: yes -->
-<!-- graphics: yes -->
-
-<!-- # \faCode \hspace{1pt} Skills -->
-<!-- R, tidyverse, Shiny, R Markdown -->
-<!-- python, Django, SQL -->
-
-<!-- # \faGraduationCap \hspace{1pt} Education -->
 # \faGraduationCap \hspace{1pt} Education
 
-**PhD**, Cognitive Science, Massachusetts Institute of Technology \hfill 2022\newline
-<!-- |     NSF Graduate Research Fellowship Program Fellow -->
-**BS**, Computer Science and Engineering \& Brain and Cognitive Sciences, Massachusetts Institute of Technology \hfill 2014
+| **PhD**, Cognitive Science, Massachusetts Institute of Technology \hfill 2022
+|    Thesis: _Language learning at scale: Data-driven and model-motivated analyses of lexical and morphological development_
+
+| **BS**, Computer Science and Engineering \& Brain and Cognitive Sciences, Massachusetts Institute of Technology \hfill 2014
 
 
-<!-- # \scalebox{1.3}{\faLaptop} \hspace{1.5pt} Employment -->
 # \faLaptop \hspace{1pt} Employment
 
-| **Postdoctoral Scholar**, Quantitative Sciences Unit, Stanford University \hfill Mar 2022 -- Present
-|    Developing tools for reducing statistical bias in meta analysis. \hlink{metabias.io}
-|    Conducting studies on interventions for reducing meat consumption.
+| **Postdoctoral Scholar**, Quantitative Sciences Unit, Stanford University \hfill Mar 2022 -- Apr 2023
+|    Developed tools for reducing statistical bias in meta analysis.
+|    Conducted studies on interventions for reducing meat consumption.
 
 | **Graduate Student Researcher**, Department of Brain of Cognitive Sciences, MIT \hfill Sep 2016 -- Jan 2022
 |    Conducted large scale data analyses of children's lexical and morphological development.
-|    Co-authored a book of data-driven analyses of children's language learning: \hlink{wordbank-book.stanford.edu}
-|        *Variability and Consistency in Early Language Learning: The Wordbank Project* (MIT Press, 2021)
 
 | **Research Assistant**, Department of Psychology, Stanford University \hfill Sep 2014 -- June 2016
 |    Developed tools for language acquisition research and conducted analyses of vocabulary development.
 
 | **Research and Development Intern**, Basis Technology \hfill Jun 2013 -- Aug 2013
-|    Improved a statistical model for named-entity resolution and entity linking.
-<!-- (using Java and Python). -->
+|    Improved a statistical model for named-entity resolution and entity linking (using Java and Python).
 
-<!-- Improved a statistical model for named-entity resolution and entity linking through error analysis and software development (using Java and Python). -->
 
-<!-- # \faUsers \hspace{2pt} Teaching -->
+# \faCube \hspace{1pt} Projects
+
+\project{Metabias}{metabias.io}{(co-creator, primary maintainer)}{R packages for accounting for statistical biases in meta-analysis (\pinl{PublicationBias}, \pinl{phacking}, \pinl{multimetabias}).\\ Interactive apps for performing these analyses (using R, Shiny, Heroku, Docker, shinyapps.io).}
+
+\project{Experimentology}{experimentology.io}{(co-author)}{Textbook (in progress) on experimental methods and open science (using R, bookdown, CSS).\\ Interactive tutorials on data manipulation and visualization (using R, learnr).}
+
+\project{Wordbank}{wordbank.stanford.edu}{(co-creator, former primary maintainer, co-author)}{Open repository of language development data (using Python, Django, MySQL, AWS).\\ Interactive tools for data visualization (using Shiny).\\ R package for data access and manipulation (\pinl{wordbankr}).\\ Book of data-driven analyses of children's language learning (MIT Press, 2021). \hlink{wordbank-book.stanford.edu}}
+
+\project{Wordful}{wordfulapp.com}{(co-creator and former maintainer)}{Smartphone app for tracking early vocabulary growth (using JavaScript, Angular, Python).}
+
+<!-- \project{childes-db}{}{}{} -->
+<!-- \project{Peekbank}{}{}{} -->
+<!-- \project{MetaLab (co-creator, former primary maintainer)}{metalab.stanford.edu}{Mar 2015 -- May 2016}{Interactive visualizations for community-augmented meta-analysis (using Shiny).} -->
+
+_Additional (co-)authored R packages:_
+\begin{description}[leftmargin=!,labelwidth=\widthof{\plab{truncnormbayes}}]
+
+  \item[\plab{jglmm}] Fitting and analyzing generalized linear mixed effects models in Julia. \hlink{github.com/mikabr/jglmm}
+
+  \item[\plab{ggpirate}] Making more informative alternatives to bar plots. \hlink{github.com/mikabr/ggpirate}
+
+  \item[\plab{rwebppl}] Interface to the WebPPL probabilistic programming language. \hlink{github.com/mhtess/rwebppl}
+
+  \item[\plab{childesr}] Accessing childes-db, a database of child language corpora. \hlink{github.com/langcog/childesr}
+
+%  \item[\plab{tidyboot}] Tidyverse-compatible bootstrapping. \hlink{github.com/langcog/tidyboot}
+
+  \item[\plab{peekbankr}] Accessing peekbank, a database of developmental eye-tracking datasets. \hlink{github.com/langcog/peekbankr}
+
+  \item[\plab{truncnormbayes}] Estimating moments for a truncated normal distribution using Stan. \hlink{github.com/leonkt/truncnormbayes}
+
+\end{description}
+
 # \faUsers \hspace{1pt} Teaching
 
-\project{Co-Author, \em{Experimentology: An Open Science Approach to Experimental Psychology Methods}}{experimentology.io}{}{Co-authoring a textbook on experimental methods and open science (MIT Press, in progress),\\ including interactive tutorials for learning \plab{tidyverse} and \plab{ggplot2}.}
-
-\project{Presenter, Research Methods Seminar, Stanford University}{rpubs.com/mikabr/jglmm-qsu}{(October 2022)}{Tools for fitting generalized linear mixed-effects models in Julia from R.}
-
-\project{Teaching Assistant, Laboratory in Psycholinguistics, MIT}{web.mit.edu/psycholinglab/public}{(2018 -- 2021)}{Developed and taught weekly hands-on labs on tidyverse-based data analysis and visualization.\\Received four annual departmental awards for Excellence in Undergraduate Teaching (2019--2022).}
-
-\project{Workshop Instructor, LSA Linguistic Institute 2019}{mikabr.io/acq-tools/acq-tools-lsa.html}{(July 2019)}{Created and taught workshop on the use of large-scale data tools in child language acquisition.}
-
-<!-- # \faArchive \hspace{2pt} Books -->
-<!-- <!-- # Other experience -->
-
-<!-- \project{Co-Author, \em{Experimentology: An Open Science Approach to Experimental Psychology Methods}}{}{MIT Press, in progress}{\small \href{https://experimentology.io}{experimentology.io} \normalsize\\Co-authoring a book on experimental methods and open science.} -->
-
-<!-- \project{Co-Author, \em{Variability and Consistency in Early Language Learning: -->
-<!-- The Wordbank Project}}{}{MIT Press, March 2021}{\small \href{http://wordbank-book.stanford.edu}{wordbank-book.stanford.edu} \normalsize\\Co-authored a book of data-driven analyses of children's language learning.} -->
-
-<!-- # \scalebox{1.3}{\faCodeFork} \hspace{1.5pt} Open source software -->
-<!-- # \scalebox{1.3}{\faCube} \hspace{1.5pt} R packages -->
-# \faCube \hspace{1pt} R packages
-
-<!-- _This list is a sample of some of the R-based open source software projects for which I am or was the primary developer._ -->
-
-\small
-_The following are some of the R packages for which I am the maintainer and the primary or sole author._
-\normalsize
-
-_Statistics_
-\begin{description}[leftmargin=!,labelwidth=\widthof{\plab{truncnormbayes}}]
-  \item[\plab{multibiasmeta}] Analyses for within-study and across-study biases in meta-analysis \hlink{github.com/mikabr/multibiasmeta}
-  \item[\plab{phacking}] Analyses for p-hacking in meta-analysis \hlink{github.com/mikabr/phacking}
-%  \item[\plab{truncnormbayes}] Estimating moments for a truncated normal distribution using Stan \hlink{github.com/leonkt/truncnormbayes}
-\end{description}
-
-\vspace{8pt}_Modeling_
-\begin{description}[leftmargin=!,labelwidth=\widthof{\plab{tidyboot}}]
-  \item[\plab{jglmm}] Fitting and analyzing generalized linear mixed effects models in Julia \hlink{github.com/mikabr/jglmm}
-  \item[\plab{tidyboot}] Tidyverse-compatible bootstrapping \hlink{github.com/langcog/tidyboot}
-\end{description}
-
-\vspace{8pt}_Data_
-\begin{description}[leftmargin=!,labelwidth=\widthof{\plab{wordbankr}}]
-  \item[\plab{peekbankr}] Accessing peekbank, a database of developmental eye-tracking datasets \hlink{github.com/langcog/peekbankr}
-  \item[\plab{childesr}] Accessing childes-db, a database of child language corpora \hlink{github.com/langcog/childesr}
-  \item[\plab{wordbankr}] Accessing Wordbank, a database of vocabulary development data \hlink{github.com/langcog/wordbankr}
-\end{description}
-
-<!-- \project{rwebppl}{github.com/mhtess/rwebppl}{Feb 2016 -- Present}{R package providing an interface to the WebPPL probabilistic programming language.} -->
-<!-- \project{ggpirate}{github.com/mikabr/ggpirate}{Sep 2017 -- Present}{making more informative alternatives to bar plots.} -->
-
-<!-- \project{Wordbank}{wordbank.stanford.edu}{Mar 2014 -- Present}{Database of vocabulary development data (using Python and MySQL).\\ Interactive tools for its access (using R Shiny).\\ Demo presented at RStudio Shiny Developer Conference 2016.} -->
-
-<!-- \project{MetaLab}{metalab.stanford.edu}{Mar 2015 -- May 2016}{Interactive visualizations (using R Shiny) for community-augmented meta-analysis.} -->
-
-<!-- \project{}{}{}{} -->
-
-<!-- \project{Independent Contractor, rOpenSci}{}{Jun 2016 -- Jul 2016}{Developed an automatic deployment of R package documentation by Travis CI.} -->
-<!-- https://github.com/ropenscilabs/travis -->
-
-<!-- \project{Participant, rOpenSci Hackout 3}{}{Jun 2016}{} -->
-
-<!-- \project{Participant, rOpenSci Unconference 2016}{}{Mar 2016}{Contributed to developing an community-driven color palettes.} -->
-<!-- https://github.com/ropenscilabs/colorpiler -->
-
-<!-- \project{Research and Development Intern, Basis Technology}{}{Jun 2013 -- Aug 2013}{Improved a statistical model for named-entity resolution (using Java and Python).} -->
-
-<!-- Improved a statistical model for named-entity resolution and entity linking through error analysis and software development (using Java and Python). -->
+\project{Teaching Assistant, Laboratory in Psycholinguistics, MIT}{web.mit.edu/psycholinglab/public}{(2018--2021)}{Developed and taught weekly hands-on labs on data analysis and visualization.\\Received four annual departmental awards for Excellence in Undergraduate Teaching (2019--2022).}

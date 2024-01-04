@@ -61,9 +61,12 @@ tags$header(
 )
 ```
 
-I'm a postdoctoral scholar at the [Quantitative Sciences Unit](https://med.stanford.edu/qsu.html) at Stanford University. I work with [Maya Mathur](https://www.mayamathur.com) on tools for <strong>reducing bias in meta-analysis</strong> and on studies of interventions for <strong>reducing meat consumption</strong>.
+I'm a software developer at the [Language and Cognition Lab](https://langcog.stanford.edu/) at Stanford University. I work on tools and resources for **data sharing** and other **open science practices**.
 
-Before that I got my PhD in [Brain and Cognitive Sciences](http://bcs.mit.edu) at MIT, where I studied <strong>language acquisition</strong>. I was advised by [Ted Gibson](http://tedlab.mit.edu/people.html) and also collaborated extensively with [Mike Frank](http://web.stanford.edu/~mcfrank/), [Virginia Marchman](https://profiles.stanford.edu/virginia-marchman), [Tim O'Donnell](http://people.linguistics.mcgill.ca/~timothy.odonnell/), and [Roger Levy](http://www.mit.edu/~rplevy/).
+Previously, I was a postdoctoral scholar at the [Quantitative Sciences Unit](https://med.stanford.edu/qsu.html) at Stanford University, where I worked with [Maya Mathur](https://www.mayamathur.com) on tools for **reducing bias in meta-analysis** and on studies of interventions for 
+**reducing meat consumption**.
+
+Before that I got my PhD in [Brain and Cognitive Sciences](http://bcs.mit.edu) at MIT, where I studied **how kids learn words and word structure**. I was advised by [Ted Gibson](http://tedlab.mit.edu/people.html) and also collaborated extensively with [Mike Frank](http://web.stanford.edu/~mcfrank/), [Virginia Marchman](https://profiles.stanford.edu/virginia-marchman), [Tim O'Donnell](http://people.linguistics.mcgill.ca/~timothy.odonnell/), and [Roger Levy](http://www.mit.edu/~rplevy/).
 
 ```{r}
 subpart_tags <- function(sub) {

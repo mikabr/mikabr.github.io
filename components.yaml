@@ -2,23 +2,21 @@
   icon: laptop-code
   color: cyan
   items:
-    - name: metabias
-      url: http://metabias.io/
+    - name: Experimentology
+      description: In-progress textbook about experimental psychology methods and open science
+      url: https://experimentology.io/
       width: 6
       with:
-        - name: Maya Mathur
-          url: https://www.mayamathur.com/
-      description: Tools for conducting corrections and sensitivity analyses for biases in meta-analysis
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+        - name: and others
       subparts:
+        - icon: book
+          text: Online book
+          url: https://experimentology.io/
         - icon: chart-line
-          text: Interactive apps
-          url: https://metabias.io/
-        - icon: r-project
-          text: R packages tutorial
-          url: https://mathurlabstanford.github.io/multibiasmeta/articles/tutorial.html
-        - icon: github
-          text: GitHub repositories
-          url: https://github.com/mathurlabstanford
+          text: Interactive tutorials on data analysis and visualization
+          url: langcog.shinyapps.io/tidyverse/
     - name: Doctoral thesis
       url: https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf
       width: 6
@@ -81,21 +79,23 @@
         - icon: file
           text: "Paper: <em>Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition</em> (2022)"
           url: files/papers/peekbank.pdf
-    - name: Experimentology
-      description: In-progress textbook about experimental psychology methods and open science
-      url: https://experimentology.io/
+    - name: metabias
+      url: http://metabias.io/
       width: 6
       with:
-        - name: Michael Frank
-          url: https://web.stanford.edu/~mcfrank/
-        - name: and others
+        - name: Maya Mathur
+          url: https://www.mayamathur.com/
+      description: Tools for conducting corrections and sensitivity analyses for biases in meta-analysis
       subparts:
-        - icon: book
-          text: Online book
-          url: https://experimentology.io/
         - icon: chart-line
-          text: Interactive tidyverse tutorial
-          url: langcog.shinyapps.io/tidyverse/
+          text: Interactive apps
+          url: https://metabias.io/
+        - icon: r-project
+          text: R packages tutorial
+          url: https://mathurlabstanford.github.io/multibiasmeta/articles/tutorial.html
+        - icon: github
+          text: GitHub repositories
+          url: https://github.com/mathurlabstanford
     - name: Wordbank
       url: http://wordbank.stanford.edu
       width: 6
