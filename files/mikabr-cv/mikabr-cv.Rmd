@@ -90,11 +90,15 @@ urlcolor: #268bd2
 
 # Journal Articles
 
+- Domingue, B. W., Kanopka, K., **Braginsky, M.**, Zhang, L., Caffrey-Maffei, L. A., Kapoor, R., Liu, Y., Zhang, S., & Frank, M. C. (in prep). The Item Response Warehouse (IRW), Version 4.0.
+
 - Yuen, F, Kline, M., Zettersten, M, Kosie, J., **Braginsky, M**, Frank, M. C. (in prep). ShinyValidator: A user-friendly shiny application for validating data standards.
 
-- Poliak, M., Ryskin, R., **Braginsky, M.**, Gibson, E. (2023). It's not what you say but how you say it: Evidence from Russian shows robust effects of the structural prior on noisy channel inferences. Journal of Experimental Psychology: Learning, Memory, and Cognition.
+- Voşki, A., **Braginsky, M.**, Zhang, A., Bertoldo, J., Egan, S., Levig, L.A., Mueller Ihrig, M., & Mathur, M. B. (under review). Effect of a default portion-size reduction on meat consumption and diner satisfaction: Controlled experiments in Stanford University dining halls.
 
-<!-- - Ambridge,	B.,	Leonard, B., Anastasopoulos, A., Anderson, A., Arora, A., Bonami, O., **Braginsky, M.**, et al (under revision). A pipeline for generating plausible wug words in many languages. Transactions of the Association for Computational Linguistics. -->
+- Pimentel, T., Ryskina, M., Ambridge,	B., Anastasopoulos, A., Anderson, N., Arora, A., Bonami, O., **Braginsky, M.**, et al (under review). Sint vs Sinded: Do Machines Inflect Nonce Words Similar to Humans? ACL Rolling Review.
+
+- Poliak, M., Ryskin, R., **Braginsky, M.**, Gibson, E. (2023). It's not what you say but how you say it: Evidence from Russian shows robust effects of the structural prior on noisy channel inferences. Journal of Experimental Psychology: Learning, Memory, and Cognition.
 
 - Zettersten, M., Yurovsky, D., Xu, T., Uner, S., Tsui, A., ... **Braginsky, M.**, ... Frank, M. C. (2023). Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition. Behavior Research Methods.
 
