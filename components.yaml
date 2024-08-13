@@ -2,8 +2,22 @@
   icon: laptop-code
   color: cyan
   items:
+    - name: datapages
+      description: Tools and templates for rich data sharing
+      url: https://datapages.github.io/
+      width: 6
+      with:
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+      subparts:
+        - icon: copy
+          text: Template repository for creating a datapage
+          url: https://github.com/datapages/datapage
+        - icon: grip
+          text: Gallery of existing datapages
+          url: https://datapages.github.io/
     - name: Experimentology
-      description: In-progress textbook about experimental psychology methods and open science
+      description: Textbook about experimental psychology methods and open science
       url: https://experimentology.io/
       width: 6
       with:
@@ -17,13 +31,81 @@
         - icon: chart-line
           text: Interactive tutorials on data analysis and visualization
           url: langcog.shinyapps.io/tidyverse/
-    - name: Doctoral thesis
-      url: https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf
+    - name: metabias
+      url: http://metabias.io/
       width: 6
+      with:
+        - name: Maya Mathur
+          url: https://www.mayamathur.com/
+      description: Tools for conducting corrections and sensitivity analyses for biases in meta-analysis
       subparts:
-        - icon: graduation-cap
-          text: "<em>Language learning at scale: Data‐driven and model‐motivated analyses of lexical and morphological development</em>"
-          url: https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf
+        - icon: chart-line
+          text: Interactive apps
+          url: https://metabias.io/
+        - icon: r-project
+          text: R packages tutorial
+          url: https://mathurlabstanford.github.io/multibiasmeta/articles/tutorial.html
+        - icon: github
+          text: GitHub repositories
+          url: https://github.com/mathurlabstanford
+    # - name: Doctoral thesis
+    #   url: https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf
+    #   width: 6
+    #   subparts:
+    #     - icon: graduation-cap
+    #       text: "<em>Language learning at scale: Data‐driven and model‐motivated analyses of lexical and morphological development</em>"
+    #       url: https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf
+    - name: MetaLab
+      url: https://metalab.stanford.edu/
+      width: 6
+      with:
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+        - name: Christina Bergmann
+          url: https://sites.google.com/site/chbergma/
+        - name: Sho Tsuji
+          url: https://sites.google.com/site/tsujish/
+        - name: Alejandrina Cristia
+          url: https://sites.google.com/site/acrsta/
+        - name: Molly Lewis
+          url: https://mllewis.github.io/
+        - name: and others
+          url: https://langcog.github.io/metalab/team/
+      description: Interactive, community-augmented meta-analysis tools for cognitive development research
+      subparts:
+        - icon: chart-line
+          text: Interactive tools
+          url: https://langcog.github.io/metalab/explore/apps/
+        - icon: file
+          text: "Paper: <em>Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research</em> (2018)"
+          url: files/papers/metalab.pdf
+    - name: Wordbank
+      url: http://wordbank.stanford.edu
+      width: 6
+      with:
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+        - name: Virginia Marchman
+          url: https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php
+        - name: Daniel Yurovsky
+          url: https://www.danyurovsky.com/
+      description: Open repository of parent-report data on children's early language learning
+      subparts:
+        - icon: chart-line
+          text: Interactive visualizations and tools
+          url: http://wordbank.stanford.edu/analyses
+        - icon: r-project
+          text: R package for data access and manipulation
+          url: https://github.com/langcog/wordbankr
+        - icon: book
+          text: "Book: <em>Variability and Consistency in Early Language Learning: The Wordbank Project</em> (2021)"
+          url: https://langcog.github.io/wordbank-book/
+        - icon: file
+          text: "Paper: <em>Consistency and variability in children’s word learning across languages</em> (2019)"
+          url: files/papers/aoapred.pdf
+        - icon: file
+          text: "Paper: <em>Wordbank: An open repository for developmental vocabulary data</em> (2017)"
+          url: files/papers/wordbank.pdf
     - name: childes-db
       url: https://childes-db.stanford.edu/
       width: 6
@@ -79,74 +161,6 @@
         - icon: file
           text: "Paper: <em>Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition</em> (2022)"
           url: files/papers/peekbank.pdf
-    - name: metabias
-      url: http://metabias.io/
-      width: 6
-      with:
-        - name: Maya Mathur
-          url: https://www.mayamathur.com/
-      description: Tools for conducting corrections and sensitivity analyses for biases in meta-analysis
-      subparts:
-        - icon: chart-line
-          text: Interactive apps
-          url: https://metabias.io/
-        - icon: r-project
-          text: R packages tutorial
-          url: https://mathurlabstanford.github.io/multibiasmeta/articles/tutorial.html
-        - icon: github
-          text: GitHub repositories
-          url: https://github.com/mathurlabstanford
-    - name: Wordbank
-      url: http://wordbank.stanford.edu
-      width: 6
-      with:
-        - name: Michael Frank
-          url: https://web.stanford.edu/~mcfrank/
-        - name: Virginia Marchman
-          url: https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php
-        - name: Daniel Yurovsky
-          url: https://www.danyurovsky.com/
-      description: Open repository of parent-report data on children's early language learning
-      subparts:
-        - icon: chart-line
-          text: Interactive visualizations and tools
-          url: http://wordbank.stanford.edu/analyses
-        - icon: r-project
-          text: R package for data access and manipulation
-          url: https://github.com/langcog/wordbankr
-        - icon: book
-          text: "Book: <em>Variability and Consistency in Early Language Learning: The Wordbank Project</em> (2021)"
-          url: https://langcog.github.io/wordbank-book/
-        - icon: file
-          text: "Paper: <em>Consistency and variability in children’s word learning across languages</em> (2019)"
-          url: files/papers/aoapred.pdf
-        - icon: file
-          text: "Paper: <em>Wordbank: An open repository for developmental vocabulary data</em> (2017)"
-          url: files/papers/wordbank.pdf
-    - name: MetaLab
-      url: https://metalab.stanford.edu/
-      width: 6
-      with:
-        - name: Michael Frank
-          url: https://web.stanford.edu/~mcfrank/
-        - name: Christina Bergmann
-          url: https://sites.google.com/site/chbergma/
-        - name: Sho Tsuji
-          url: https://sites.google.com/site/tsujish/
-        - name: Alejandrina Cristia
-          url: https://sites.google.com/site/acrsta/
-        - name: Molly Lewis
-          url: https://mllewis.github.io/
-        - name: and others
-          url: https://langcog.github.io/metalab/team/
-      description: Interactive, community-augmented meta-analysis tools for cognitive development research
-      subparts:
-        - icon: chart-line
-          text: Interactive tools
-          url: https://langcog.github.io/metalab/explore/apps/
-        - icon: file
-          text: "Paper: <em>Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research</em> (2018)"
-          url: files/papers/metalab.pdf
 
 - title: Teaching
   icon: chalkboard
