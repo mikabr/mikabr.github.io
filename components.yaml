@@ -2,20 +2,23 @@
   icon: laptop-code
   color: cyan
   items:
-    - name: datapages
-      description: Tools and templates for rich data sharing
-      url: https://datapages.github.io/
+    - name: Learning Variability Network Exchange (LEVANTE)
+      description: Framework for coordinated longitudinal data collection on children's learning and development
+      url: https://levante-network.org/data-coordination-center/
       width: 6
       with:
-        - name: Michael Frank
-          url: https://web.stanford.edu/~mcfrank/
+        - name: Stanford LEVANTE Team
+          url: https://levante-network.org/data-coordination-center
       subparts:
-        - icon: copy
-          text: Template repository for creating a datapage
-          url: https://github.com/datapages/datapage
-        - icon: grip
-          text: Gallery of existing datapages
-          url: https://datapages.github.io/
+        - icon: circle-info
+          text: Overall project documentation
+          url: https://researcher.levante-network.org
+        - icon: database
+          text: Data repository
+          url: https://redivis.com/LEVANTE
+        - icon: r-project
+          text: Data access R package
+          url: https://github.com/levante-framework/rlevante
     - name: Experimentology
       description: Textbook about experimental psychology methods and open science
       url: https://experimentology.io/
@@ -48,37 +51,20 @@
         - icon: github
           text: GitHub repositories
           url: https://github.com/mathurlabstanford
-    # - name: Doctoral thesis
-    #   url: https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf
-    #   width: 6
-    #   subparts:
-    #     - icon: graduation-cap
-    #       text: "<em>Language learning at scale: Data‐driven and model‐motivated analyses of lexical and morphological development</em>"
-    #       url: https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf
-    - name: MetaLab
-      url: https://metalab.stanford.edu/
+    - name: datapages
+      description: Tools and templates for rich data sharing
+      url: https://datapages.github.io/
       width: 6
       with:
         - name: Michael Frank
           url: https://web.stanford.edu/~mcfrank/
-        - name: Christina Bergmann
-          url: https://sites.google.com/site/chbergma/
-        - name: Sho Tsuji
-          url: https://sites.google.com/site/tsujish/
-        - name: Alejandrina Cristia
-          url: https://sites.google.com/site/acrsta/
-        - name: Molly Lewis
-          url: https://mllewis.github.io/
-        - name: and others
-          url: https://langcog.github.io/metalab/team/
-      description: Interactive, community-augmented meta-analysis tools for cognitive development research
       subparts:
-        - icon: chart-line
-          text: Interactive tools
-          url: https://langcog.github.io/metalab/explore/apps/
-        - icon: file
-          text: "Paper: <em>Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research</em> (2018)"
-          url: files/papers/metalab.pdf
+        - icon: copy
+          text: Template repository for creating a datapage
+          url: https://github.com/datapages/datapage
+        - icon: grip
+          text: Gallery of existing datapages
+          url: https://datapages.github.io/
     - name: Wordbank
       url: http://wordbank.stanford.edu
       width: 6
@@ -106,6 +92,30 @@
         - icon: file
           text: "Paper: <em>Wordbank: An open repository for developmental vocabulary data</em> (2017)"
           url: files/papers/wordbank.pdf
+    - name: MetaLab
+      url: https://metalab.stanford.edu/
+      width: 6
+      with:
+        - name: Michael Frank
+          url: https://web.stanford.edu/~mcfrank/
+        - name: Christina Bergmann
+          url: https://sites.google.com/site/chbergma/
+        - name: Sho Tsuji
+          url: https://sites.google.com/site/tsujish/
+        - name: Alejandrina Cristia
+          url: https://sites.google.com/site/acrsta/
+        - name: Molly Lewis
+          url: https://mllewis.github.io/
+        - name: and others
+          url: https://langcog.github.io/metalab/team/
+      description: Interactive, community-augmented meta-analysis tools for cognitive development research
+      subparts:
+        - icon: chart-line
+          text: Interactive tools
+          url: https://langcog.github.io/metalab/explore/apps/
+        - icon: file
+          text: "Paper: <em>Promoting replicability in developmental research through meta-analyses: Insights from language acquisition research</em> (2018)"
+          url: files/papers/metalab.pdf
     - name: childes-db
       url: https://childes-db.stanford.edu/
       width: 6
@@ -161,11 +171,22 @@
         - icon: file
           text: "Paper: <em>Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition</em> (2022)"
           url: files/papers/peekbank.pdf
+    - name: Doctoral thesis
+      url: https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf
+      width: 6
+      subparts:
+        - icon: graduation-cap
+          text: "<em>Language learning at scale: Data‐driven and model‐motivated analyses of lexical and morphological development</em>"
+          url: https://dspace.mit.edu/bitstream/handle/1721.1/143365/braginsky-mikabr-phd-bcs-2022-thesis.pdf
 
-- title: Teaching
+- title: Presentations and Courses
   icon: chalkboard
   color: orange
   items:
+    - name: Datapages for interactive data sharing using Quarto. 
+      description: Talk at posit::conf (August 2024).
+      width: 6
+      url: https://www.youtube.com/watch?v=1gUl-vWqScc.
     - name: Tools for accounting for within-study and across-study biases in meta-analysis
       description: Tutorial at ESMARConf2023 (March 2023)
       width: 6
@@ -173,7 +194,7 @@
     - name: R package development
       description: Workshop at Stanford Libraries (February 2023)
       width: 6
-      url: files/r_package_development.pdf
+      url: files/presentations/r_package_development.pdf
     - name: Tools for fitting generalized linear mixed-effects models in Julia from R
       description: Research Methods Seminar at Stanford (October 2022)
       width: 6

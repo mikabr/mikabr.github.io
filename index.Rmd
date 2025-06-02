@@ -102,12 +102,14 @@ item_tags <- function(it, sec) {
 section_tags <- function(sec) {
   n_items <- length(sec$items)
   sec_items <- map(sec$items, \(i) item_tags(i, sec))
+  per_col <- ceiling(n_items / 3)
   tagList(
     HTML(glue(
       '<h3><i class="fa fa-{sec$icon} fa-color-{sec$color}"></i>{sec$title}</h3>'
     )),
-    fluidRow(column(width = 6, sec_items[1:ceiling(n_items / 2)]),
-             column(width = 6, sec_items[(ceiling(n_items / 2) + 1):n_items]))
+    fluidRow(column(width = 4, sec_items[1:per_col]),
+             column(width = 4, sec_items[(per_col + 1):(per_col + per_col)]),
+             column(width = 4, sec_items[(per_col + per_col + 1):n_items]))
     # fluidRow(column(width = 6, map(sec$items, \(i) item_tags(i, sec))))
   )
 }

@@ -13,11 +13,11 @@ email: mikabr@stanford.edu
 github: mikabr
 web: mikabr.io
 
-mainfont: SourceSerifPro
+mainfont: SourceSerif4Light
 mainfontoptions:
-  - BoldFont=SourceSerifProBold
-  - ItalicFont=SourceSerifProItalic
-sansfont: SourceSansPro
+  - BoldFont=SourceSerif4SemiBold
+  - ItalicFont=SourceSerif4LightItalic
+sansfont: SourceSans3
 monofont: SourceCodePro
 monofontoptions: Scale=0.9
 fontsize: 11pt
@@ -63,12 +63,13 @@ urlcolor: #268bd2
 |    Computational Cognitive Science Group, MIT
 |    PI: Joshua Tenenbaum
 
-| **Research and Development Intern** \hfill June 2013 -- Aug 2013
-|    Research and Development Team, Basis Technology
+<!-- | **Research and Development Intern** \hfill June 2013 -- Aug 2013 -->
+<!-- |    Research and Development Team, Basis Technology -->
 
 
 # Awards and Fellowships
 
+- Cognitive Development Society Book Award for *Variability and Consistency in Early Language Learning: The Wordbank Project* (2024)
 - Walle Nauta Award for Continuing Dedication to Teaching by a Graduate Student (2020, 2021, 2022)
 - Angus MacDonald Award for Excellence in Undergraduate Teaching (2019)
 - Henry E. Singleton Fellowship, MIT (2017--2018)
@@ -78,7 +79,7 @@ urlcolor: #268bd2
 
 # Books
 
-- Frank, M. C., **Braginsky, M.**, Cachia, J., Coles, N., Hardwicke, T., Hawkins, R., Mathur, M., and Williams, R. (in prep). Experimentology: An Open Science Approach to Experimental Psychology Methods. MIT Press. `langcog.github.io/experimentology`
+- Frank, M. C., **Braginsky, M.**, Cachia, J., Coles, N., Hardwicke, T., Hawkins, R., Mathur, M., and Williams, R. (in press). Experimentology: An Open Science Approach to Experimental Psychology Methods. MIT Press. `experimentology.io`
 
 - Frank, M. C., **Braginsky, M.**, Marchman, V. A., and Yurovsky, D. (2021). Variability and Consistency in Early Language Learning: The Wordbank Project. MIT Press. `wordbank-book.stanford.edu`
 
@@ -90,15 +91,19 @@ urlcolor: #268bd2
 
 # Journal Articles
 
-- Domingue, B. W., Kanopka, K., **Braginsky, M.**, Zhang, L., Caffrey-Maffei, L. A., Kapoor, R., Liu, Y., Zhang, S., & Frank, M. C. (in prep). The Item Response Warehouse (IRW), Version 4.0.
+- Frank, M. C., Marchman, V. A., Bergey, C. A., Boyce, V., **Braginsky, M.**, Kachergis, G., ..., Zettersten, M. (under review). Continuous developmental changes in word recognition support language learning across early childhood. Pre-print: https://doi.org/10.31234/osf.io/dtv2f_v1.
 
-- Yuen, F, Kline, M., Zettersten, M, Kosie, J., **Braginsky, M**, Frank, M. C. (in prep). ShinyValidator: A user-friendly shiny application for validating data standards.
+- Frank, M. C., Baumgartner, H. A., **Braginsky, M.**, Kachergis, G., Lightbody, A. A., ..., Cubillo, A., Dodge, K. A. (under revision). Learning Variability Network Exchange (LEVANTE): A global framework for measuring children's learning variability through collaborative data sharing. Pre-print: https://doi.org/10.31234/osf.io/namx2.
 
-- Voşki, A., **Braginsky, M.**, Zhang, A., Bertoldo, J., Egan, S., Levig, L.A., Mueller Ihrig, M., & Mathur, M. B. (under review). Effect of a default portion-size reduction on meat consumption and diner satisfaction: Controlled experiments in Stanford University dining halls.
+- Domingue, B., **Braginsky, M.**, Caffrey-Maffei, L., Gilbert, J. B., Kanopka, K., Kapoor, R., ..., Frank, M. C. (under revision). Solving the problem of data in psychometrics: An introduction to the Item Response Warehouse (IRW). Pre-print: https://doi.org/10.31234/osf.io/7bd54.
 
-- Pimentel, T., Ryskina, M., Ambridge,	B., Anastasopoulos, A., Anderson, N., Arora, A., Bonami, O., **Braginsky, M.**, et al (under review). Sint vs Sinded: Do Machines Inflect Nonce Words Similar to Humans? ACL Rolling Review.
+<!-- - Yuen, F, Kline, M., Zettersten, M, Kosie, J., **Braginsky, M**, Frank, M. C. (in prep). ShinyValidator: A user-friendly Shiny application for validating data standards. -->
 
-- Poliak, M., Ryskin, R., **Braginsky, M.**, Gibson, E. (2023). It's not what you say but how you say it: Evidence from Russian shows robust effects of the structural prior on noisy channel inferences. Journal of Experimental Psychology: Learning, Memory, and Cognition.
+<!-- - Pimentel, T., Ryskina, M., Ambridge,	B., Anastasopoulos, A., Anderson, N., Arora, A., Bonami, O., **Braginsky, M.**, et al (under review). Sint vs Sinded: Do Machines Inflect Nonce Words Similar to Humans? ACL Rolling Review. -->
+
+- Voşki, A., **Braginsky, M.**, Zhang, A., Bertoldo, J., Egan, S., Levig, L.A., Mueller Ihrig, M., & Mathur, M. B. (2025). Effect of a default portion-size reduction on meat consumption and diner satisfaction: Controlled experiments in Stanford University dining halls. BMC Public Health.
+
+- Poliak, M., Ryskin, R., **Braginsky, M.**, Gibson, E. (2024). It's not what you say but how you say it: Evidence from Russian shows robust effects of the structural prior on noisy channel inferences. Journal of Experimental Psychology: Learning, Memory, and Cognition.
 
 - Zettersten, M., Yurovsky, D., Xu, T., Uner, S., Tsui, A., ... **Braginsky, M.**, ... Frank, M. C. (2023). Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition. Behavior Research Methods.
 
@@ -115,7 +120,9 @@ urlcolor: #268bd2
 
 # Peer-Reviewed Conference Proceedings
 
-- Ambridge,	B.,	Anastasopoulos,	A.,	Anderson,	N.,	Arora,	A.,	Bonami,	O.,	**Braginsky,	M.**, et al (2021). A pipeline for generating plausible wug words in many languages. *Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and	Morphology*.
+- Tan, A., Loukatou, G., **Braginsky, M.**, Mankewitz, J., and Frank, M. C. (2024). Predicting ages of acquisition for children's early vocabulary across 27 languages and dialects. In *Proceedings of the 46th Annual Meeting of the Cognitive Science Society*.
+
+- Ambridge,	B.,	Anastasopoulos,	A.,	Anderson,	N.,	Arora,	A.,	Bonami,	O.,	**Braginsky,	M.**, et al (2021). A pipeline for generating plausible wug words in many languages. In *Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and	Morphology*.
 
 - Zettersten, M., Bergey, C., Bhatt, N., Boyce, V., **Braginsky, M.**, Carstensen, A., ... & Frank, M. C. (2021). Peekbank: Exploring children's word recognition through an open, large-scale repository for developmental eye-tracking data. In *Proceedings of the 43rd Annual Meeting of the Cognitive Science Society*.
 
@@ -128,7 +135,9 @@ urlcolor: #268bd2
 
 # Conference Presentations
 
-- **Braginsky, M.**, and Mathur, M. (Mar 2023). Tools for accounting for within-study and across-study biases in meta-analysis. Talk presented at Evidence Synthesis and Meta-Analysis in R Conference 2023.
+- **Braginsky, M.**, and Frank, M. C. (Aug 2024). Datapages for interactive data sharing using Quarto. Talk presented at posit::conf 2024. [youtube.com/watch?v=1gUl-vWqScc](https://www.youtube.com/watch?v=1gUl-vWqScc).
+
+- **Braginsky, M.**, and Mathur, M. (Mar 2023). Tools for accounting for within-study and across-study biases in meta-analysis. Talk presented at Evidence Synthesis and Meta-Analysis in R Conference 2023. [youtube.com/watch?v=O6RSRLDOmmc](https://www.youtube.com/watch?v=O6RSRLDOmmc).
 
 - Loukatou, G., Tan, A., **Braginsky, M.**, Mankewitz, J. and Frank, M. C. (November 2022). Typological variation in predicting early word learning across languages. Poster presented by Alvin Tan at the 47th Annual Boston University Conference on Language Development.
 
