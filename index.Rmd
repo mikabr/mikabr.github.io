@@ -61,7 +61,7 @@ tags$header(
 )
 ```
 
-I'm a software developer at the [Language and Cognition Lab](https://langcog.stanford.edu/) at Stanford University. I work on tools and resources for **data sharing** and other **open science practices**.
+I'm a research software developer at the [Language and Cognition Lab](https://langcog.stanford.edu/) at Stanford University. As part of my role, I do data engineering and modeling for [LEVANTE](https://levante-network.org/), a global research network for coordinated data collection on children's learning and development. I also work on tools and resources for **data sharing** and other **open science practices**.
 
 Previously, I was a postdoctoral scholar at the [Quantitative Sciences Unit](https://med.stanford.edu/qsu.html) at Stanford University, where I worked with [Maya Mathur](https://www.mayamathur.com) on tools for **reducing bias in meta-analysis** and on studies of interventions for 
 **reducing meat consumption**.
