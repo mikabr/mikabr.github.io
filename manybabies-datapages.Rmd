@@ -1,0 +1,7 @@
+---
+title: "Redirecting..."
+---
+
+```{=html}
+<meta http-equiv="refresh" content="0; url=https://docs.google.com/presentation/d/e/2PACX-1vQVgslrnH0MwHgJ2drsynDHcVscfB0PpEUGco591-pOWtzfDKT2DEpZo4GsvLoqkZrVOQESJYA3E9-y/pub?start=false&loop=false&slide=id.p">
+```
